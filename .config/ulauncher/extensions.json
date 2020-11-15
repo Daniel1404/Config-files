@@ -1,0 +1,23 @@
+{
+    "com.github.ceroprogramming.ulauncher-pulsecontrol": {
+        "id": "com.github.ceroprogramming.ulauncher-pulsecontrol",
+        "url": "https://github.com/CeroProgramming/ulauncher-pulsecontrol",
+        "updated_at": "2020-11-12T22:01:22.964058",
+        "last_commit": "f1a3986102d2b46bb8761e50bc4b1e8abb475992",
+        "last_commit_time": "2020-11-12T10:55:56"
+    },
+    "com.github.brpaz.ulauncher-file-search": {
+        "id": "com.github.brpaz.ulauncher-file-search",
+        "url": "https://github.com/brpaz/ulauncher-file-search",
+        "updated_at": "2020-11-12T22:02:27.084496",
+        "last_commit": "0ea61c2049b27f1ddfa81d1844876f21dd9d6e7b",
+        "last_commit_time": "2020-07-03T13:30:16"
+    },
+    "com.github.brpaz.ulauncher-lastpass": {
+        "id": "com.github.brpaz.ulauncher-lastpass",
+        "url": "https://github.com/brpaz/ulauncher-lastpass",
+        "updated_at": "2020-11-12T22:04:23.163738",
+        "last_commit": "d6236bb25110183f478cadba19ee35c27d387c3d",
+        "last_commit_time": "2020-06-27T16:17:54"
+    }
+}
