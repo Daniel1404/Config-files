@@ -1,0 +1,1 @@
+/home/daniel/.local/share/omf/init.fish
