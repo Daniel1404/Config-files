@@ -1,0 +1,15 @@
+2020/11/14-19:05:12.990 464a Reusing MANIFEST /home/daniel/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/14-19:05:12.990 464a Recovering log #4
+2020/11/14-19:05:12.991 464a Reusing old log /home/daniel/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/000004.log 
+2020/11/14-19:05:15.198 464c Level-0 table #8: started
+2020/11/14-19:05:15.315 464c Level-0 table #8: 190 bytes OK
+2020/11/14-19:05:15.434 464c Delete type=0 #4
+2020/11/14-19:05:15.490 464c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/11/14-19:05:15.490 26f7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 4 : 1
+2020/11/14-19:05:15.490 26f7 Compacting 1@1 + 1@2 files
+2020/11/14-19:05:15.590 26f7 Generated table #9@1: 4 keys, 236 bytes
+2020/11/14-19:05:15.590 26f7 Compacted 1@1 + 1@2 files => 236 bytes
+2020/11/14-19:05:15.657 26f7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/11/14-19:05:15.657 26f7 Delete type=2 #8
+2020/11/14-19:05:15.657 26f7 Delete type=2 #5
+2020/11/14-19:05:15.658 26f7 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 4 : 1 .. (end); will stop at (end)

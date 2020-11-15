@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=683;y=12"/>
+      <property name="size" type="uint" value="20"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.262740"/>
+        <value type="double" value="0.159000"/>
+        <value type="double" value="0.900000"/>
+        <value type="double" value="1.000000"/>
+      </property>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="9"/>
+        <value type="int" value="11"/>
+        <value type="int" value="7"/>
+        <value type="int" value="6"/>
+        <value type="int" value="2"/>
+        <value type="int" value="10"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="12"/>
+        <value type="int" value="1"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="clock"/>
+    <property name="plugin-4" type="string" value="notification-plugin"/>
+    <property name="plugin-5" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance1140;chromium.instance1235;chromium.instance1301;chromium.instance1625;chromium.instance2619;chromium.instance4028;chromium.instance4326;chromium.instance6927;chromium.instance69287"/>
+    </property>
+    <property name="plugin-6" type="string" value="showdesktop"/>
+    <property name="plugin-7" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+    </property>
+    <property name="plugin-9" type="string" value="actions"/>
+    <property name="plugin-10" type="string" value="separator">
+      <property name="style" type="uint" value="3"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="3"/>
+    </property>
+    <property name="plugin-12" type="string" value="systray">
+      <property name="names-ordered" type="array">
+        <value type="string" value="ulauncher"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="megasync"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="msm notifier"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="albert"/>
+        <value type="string" value="drop-down terminal"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="applicationsmenu"/>
+  </property>
+  <property name="configver" type="int" value="2"/>
+</channel>

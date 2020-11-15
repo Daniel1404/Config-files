@@ -1,0 +1,50 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "icon_color": "#1ED55F",
+      "launch": {
+         "web_url": "https://open.spotify.com/?utm_source=pwa_install"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://open.scdn.co/cdn/images/icons/Spotify_16.aa3775a0.png"
+      }, {
+         "size": 32,
+         "url": "https://open.scdn.co/cdn/images/icons/Spotify_32.492cdebf.png"
+      }, {
+         "size": 128,
+         "url": "https://open.scdn.co/cdn/images/icons/Spotify_128.c9ce2f2e.png"
+      }, {
+         "size": 256,
+         "url": "https://open.scdn.co/cdn/images/icons/Spotify_256.c8416b60.png"
+      }, {
+         "size": 512,
+         "url": "https://open.scdn.co/cdn/images/icons/Spotify_512.49a0bf03.png"
+      }, {
+         "size": 1024,
+         "url": "https://open.scdn.co/cdn/images/icons/Spotify_1024.d6467a14.png"
+      } ],
+      "theme_color": "rgba(18,18,18,1)"
+   },
+   "description": "",
+   "icons": {
+      "1024": "icons/1024.png",
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "pCwS4EVp+5O1kmmrlIxGmW4tURp/OYteNgje5PJ/vh4=",
+   "name": "Spotify",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://open.spotify.com/*" ],
+         "title": "Spotify"
+      }
+   },
+   "version": "2020.11.13.41560"
+}

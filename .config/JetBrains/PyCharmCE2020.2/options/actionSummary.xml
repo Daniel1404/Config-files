@@ -1,0 +1,129 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="$Undo">
+        <ActionSummary times="29" last="1605372386842" />
+      </entry>
+      <entry key="BraceOrQuoteOut">
+        <ActionSummary times="1" last="1605396969675" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="245" last="1605397077756" />
+      </entry>
+      <entry key="EditorChooseLookupItem">
+        <ActionSummary times="2" last="1605396964696" />
+      </entry>
+      <entry key="EditorChooseLookupItemReplace">
+        <ActionSummary times="22" last="1605396972569" />
+      </entry>
+      <entry key="EditorCompleteStatement">
+        <ActionSummary times="1" last="1605371933889" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="1" last="1605397017355" />
+      </entry>
+      <entry key="EditorCut">
+        <ActionSummary times="1" last="1605397011571" />
+      </entry>
+      <entry key="EditorDelete">
+        <ActionSummary times="14" last="1605396997415" />
+      </entry>
+      <entry key="EditorDown">
+        <ActionSummary times="76" last="1605397012825" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="30" last="1605397014066" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="340" last="1605397012627" />
+      </entry>
+      <entry key="EditorLineEnd">
+        <ActionSummary times="3" last="1605396861292" />
+      </entry>
+      <entry key="EditorLineEndWithSelection">
+        <ActionSummary times="1" last="1605397010618" />
+      </entry>
+      <entry key="EditorLineStart">
+        <ActionSummary times="1" last="1605397013442" />
+      </entry>
+      <entry key="EditorPageDown">
+        <ActionSummary times="1" last="1605396859283" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="5" last="1605397024602" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="460" last="1605397009267" />
+      </entry>
+      <entry key="EditorRightWithSelection">
+        <ActionSummary times="1" last="1605397009938" />
+      </entry>
+      <entry key="EditorStartNewLine">
+        <ActionSummary times="2" last="1605396981446" />
+      </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="3" last="1605372334297" />
+      </entry>
+      <entry key="EditorUp">
+        <ActionSummary times="72" last="1605397016409" />
+      </entry>
+      <entry key="Educational.LearnAndTeach">
+        <ActionSummary times="1" last="1605370670799" />
+      </entry>
+      <entry key="ManageRecentProjects">
+        <ActionSummary times="1" last="1605383811942" />
+      </entry>
+      <entry key="NewDirectoryProject">
+        <ActionSummary times="1" last="1605383815629" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="1" last="1605373042919" />
+      </entry>
+      <entry key="RunClass">
+        <ActionSummary times="1" last="1605372969407" />
+      </entry>
+      <entry key="RunConfigurationTemplatesForNewProjects">
+        <ActionSummary times="1" last="1605370467811" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="2" last="1605397251195" />
+      </entry>
+      <entry key="SmartTypeCompletion">
+        <ActionSummary times="1" last="1605371918533" />
+      </entry>
+      <entry key="WelcomeScreen.Configure.DesktopEntry">
+        <ActionSummary times="1" last="1605370434922" />
+      </entry>
+      <entry key="WelcomeScreen.Plugins">
+        <ActionSummary times="1" last="1605370500841" />
+      </entry>
+      <entry key="com.intellij.execution.impl.ConsoleViewImpl$BackSpaceHandler">
+        <ActionSummary times="9" last="1605373048535" />
+      </entry>
+      <entry key="com.intellij.execution.impl.ConsoleViewImpl$EnterHandler">
+        <ActionSummary times="2" last="1605373051207" />
+      </entry>
+      <entry key="com.intellij.notification.NotificationAction$Simple">
+        <ActionSummary times="1" last="1605384246427" />
+      </entry>
+      <entry key="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
+        <ActionSummary times="1" last="1605372354500" />
+      </entry>
+      <entry key="com.intellij.openapi.updateSettings.impl.UpdateChecker$showNotification$1">
+        <ActionSummary times="1" last="1605380878450" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="14" last="1605392414947" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
+        <ActionSummary times="4" last="1605383803818" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$2">
+        <ActionSummary times="3" last="1605370493284" />
+      </entry>
+      <entry key="com.jetbrains.edu.learning.newproject.BrowseCoursesAction">
+        <ActionSummary times="1" last="1605370677448" />
+      </entry>
+    </data>
+  </component>
+</application>

@@ -1,0 +1,369 @@
+{
+   "ADD_NEW_URL_SITE_TOOLTIP": {
+      "message": "Adicionar um novo URL para esta sessão"
+   },
+   "BOOKMARK_CURRENT_PAGE": {
+      "description": "Bookmark current page",
+      "message": "Marcar página actual"
+   },
+   "CANCEL": {
+      "description": "Button text",
+      "message": "Cancelar"
+   },
+   "CANT_CREATE_HERE": {
+      "message": "Não se pode criar sessão aquí"
+   },
+   "CONTINUE": {
+      "description": "Button text",
+      "message": "Continuar"
+   },
+   "CREATE": {
+      "description": "Button text",
+      "message": "Criar"
+   },
+   "CREATE_ACCOUNT": {
+      "description": "Create account button text",
+      "message": "Criar conta"
+   },
+   "CREATE_BOOKMARK": {
+      "description": "Button text",
+      "message": "Adicionar um novo URL"
+   },
+   "CREATE_FIRST_PART1": {
+      "description": "First part of the phrase: 'Click on the (+) button and create your first session!' The phrase is divided with an image, thats why it is separated into two parts.",
+      "message": "Fazer click no"
+   },
+   "CREATE_FIRST_PART2": {
+      "description": "Second part of the phrase: 'Click on the (+) button and create your first session!' The phrase is divided with an image, thats why it is separated into two parts.",
+      "message": "botão e cria o novo!"
+   },
+   "CREATE_NEW_ACCOUNT": {
+      "description": "Create a new account button text",
+      "message": "Criar nova conta"
+   },
+   "CURRENT_SITE_SESSIONS": {
+      "message": "Sessões de página atual"
+   },
+   "CURRENT_TAB_SESSION": {
+      "description": "Current tab's session",
+      "message": "Pasta actual"
+   },
+   "DEFAULT": {
+      "description": "Default site",
+      "message": "Default site"
+   },
+   "DELETE": {
+      "description": "Button text",
+      "message": "Apagar"
+   },
+   "DELETE_SELECTED": {
+      "message": "Excluir selecionados"
+   },
+   "DONT_SHOW_AGAIN": {
+      "description": "Don't show again",
+      "message": "Não mostrar mais"
+   },
+   "EDIT_SESSION": {
+      "description": "Session options",
+      "message": "Configuração de sessão"
+   },
+   "EMAIL": {
+      "description": "Email address field label",
+      "message": "Correio eletrônico"
+   },
+   "EMAIL_TAKEN": {
+      "description": "Email address already in use error message",
+      "message": "Correio eletrônico já está registrado"
+   },
+   "ENTER_VALID_EMAIL": {
+      "description": "Please enter valid email error message",
+      "message": "Introduz un correio eletrônico valido"
+   },
+   "ENTER_YOUR_CREDENTIALS_TO_START": {
+      "description": "Inform user he has to sign in to access the service",
+      "message": "Introduz os teus credenciais para começar."
+   },
+   "FORMAT_ERROR": {
+      "message": "Erro de formatação"
+   },
+   "GOT_IT": {
+      "description": "Got it!",
+      "message": "Percebido"
+   },
+   "GROUP": {
+      "message": "Grupo"
+   },
+   "GUEST_CREATE_ACCOUNT": {
+      "message": "Crie uma conta para sincronizar seus dados ."
+   },
+   "GUEST_MODE_NOTICE": {
+      "message": "No modo de convidado seus dados não são sincronizados . Sua vontade perderam suas sessões quando você sair ou reiniciar o browser."
+   },
+   "HELLO_STRANGER": {
+      "description": "Welcomes unauthorized user",
+      "message": "Olá desconhecido!"
+   },
+   "INVALID_CREDENTIALS": {
+      "description": "Error message (user given wrong username or password)",
+      "message": "credenciais incorrectas"
+   },
+   "LOG_IN": {
+      "description": "Log in button text",
+      "message": "Logear"
+   },
+   "MAXIMUM_CHARACTERS": {
+      "message": "Maximum {{num}} carácteres"
+   },
+   "MINIMUM_CHARACTERS": {
+      "description": "Error message. {{num}} is replaced with actual number",
+      "message": "Minimum {{num}} caráteres"
+   },
+   "MORE_INFO": {
+      "description": "More info",
+      "message": "Mais informação"
+   },
+   "MORE_INFO_LINE1": {
+      "message": "Agora podes logear a {{site}} com qualquera das contas registradas e usar-lhes independentemente das outras pastas. Se fechas a pasta podes resumir esta sessão em qualquer momento desde SessionBox."
+   },
+   "MORE_INFO_LINE2": {
+      "message": "O nome e o cor estão atribuídos automaticamente . Tu podes alterar-lhes desde o menu de SB usado os tres puntos."
+   },
+   "NAME": {
+      "description": "Field label (session's name)",
+      "message": "Nome"
+   },
+   "NAVIGATE_TO_WEBSITE": {
+      "message": "Navega a página web e abre o menu de novo."
+   },
+   "NETWORK_ERROR": {
+      "description": "Error message (internet is not connected)",
+      "message": "Erro da rede"
+   },
+   "NEW_SESSION": {
+      "description": "New session",
+      "message": "Nova sessão"
+   },
+   "NO_SESSIONS_YET": {
+      "description": "{{site}} is a placeholder, it will be replaced with a website name",
+      "message": "Não há sessão {{site}}"
+   },
+   "OPEN_ALL_SITE": {
+      "description": "Open all site",
+      "message": "Abra tudo"
+   },
+   "OR_SIGN_IN": {
+      "description": "Continue the registration phrase 'Create account or sign in'",
+      "message": "ou logear"
+   },
+   "OTHER": {
+      "description": "Other",
+      "message": "Outros"
+   },
+   "OTHER_SESSIONS": {
+      "message": "Outras sessões"
+   },
+   "PASSWORD": {
+      "description": "Password field label",
+      "message": "Senha"
+   },
+   "PASSWORD_AGAIN": {
+      "description": "Password again field label",
+      "message": "Senha outra vez"
+   },
+   "PASSWORD_MISMATCH": {
+      "description": "Error message",
+      "message": "Senha incorrecta"
+   },
+   "PASSWORD_NOTICE": {
+      "description": "Title of dialog where we notify the user, if he forgets his password we can't recover it",
+      "message": "Aviso da senha"
+   },
+   "PASSWORD_NOTICE_LINE1": {
+      "description": "Notice text line 1",
+      "message": "SessionBox está a usar a tua senha para proteger os teus dados. Para  proteger a tua segurança, a tua senha fica sómente registrada no teu computador. Em caso do que seja esqueçida, não podemos recuperar."
+   },
+   "PASSWORD_NOTICE_LINE2": {
+      "description": "Notice text line 2",
+      "message": "Para  confirmar a tua senha introduz uma vez mais."
+   },
+   "PICK_COLOR": {
+      "description": "Color chooser label",
+      "message": "Escolhe o cor"
+   },
+   "PLEASE_WAIT": {
+      "message": "Espere por favor!"
+   },
+   "PROMO_LONG1": {
+      "message": "Usa um navegador com multiples sessões activas por sitio. Logear em multiples contas na mesma página. Sem necesidade dos navegadores secundários e/ou privados, deixa que SB manusear por ti."
+   },
+   "PROMO_LONG2": {
+      "message": "Protege a tua privacidade! As sessões em SB não compartilham a tua informação, ninguém pode monitorar a tua actividade."
+   },
+   "PROMO_SHORT": {
+      "description": "Promo text for the extension",
+      "message": "É mais facil navegar na rede usado múltiples sessões a mesmo tempo  . Cria uma nova pasta com fazer click."
+   },
+   "RATE_US": {
+      "message": "Nos avalie"
+   },
+   "REMEMBER_ME": {
+      "description": "User login will be permanent until he logs out if he checks this checkbox",
+      "message": "Mantenha-me conectado"
+   },
+   "REPEAT_PASSWORD": {
+      "description": "Repeat password field label",
+      "message": "Repete a senha"
+   },
+   "REQUIRED_FIELD": {
+      "description": "This field is required error message",
+      "message": "Este campo é obrigatório"
+   },
+   "SAVE": {
+      "description": "Button text",
+      "message": "Guardar"
+   },
+   "SAVE_SUCCESS": {
+      "message": "Completado com sucesso!"
+   },
+   "SEND_FEEDBACK": {
+      "description": "Send feedback menu item",
+      "message": "Enviar comentários"
+   },
+   "SESSIONS": {
+      "description": "Sessions",
+      "message": "Sessões"
+   },
+   "SESSION_SETTINGS": {
+      "description": "Dialog title",
+      "message": "Sessão"
+   },
+   "SETTINGS": {
+      "description": "Settings menu item",
+      "message": "Configurações"
+   },
+   "SETTINGS_HELP": {
+      "description": "Help",
+      "message": "Ajuda"
+   },
+   "SETTINGS_INCUBATE": {
+      "description": " Incubate sessions",
+      "message": " Incubar sessões"
+   },
+   "SETTINGS_INCUBATE_TOOLTIP": {
+      "description": "Keep sessions alive when you don't use them",
+      "message": "Mantem as sessões enquanto não usas"
+   },
+   "SETTINGS_INHERIT": {
+      "description": " Inherit from parent tab",
+      "message": " Inherit from parent tab"
+   },
+   "SETTINGS_INHERIT_TOOLTIP": {
+      "description": "When you open a tab, it will inherit the parent tab's session",
+      "message": "When you open a tab, it will inherit the parent tab's session"
+   },
+   "SETTINGS_LANGUAGE": {
+      "description": "Language",
+      "message": "Língua"
+   },
+   "SETTINGS_LANGUAGE_AUTOMATIC": {
+      "description": "Automatic",
+      "message": "Automático"
+   },
+   "SETTINGS_WELCOME_SCREEN": {
+      "description": "New session welcome screen",
+      "message": "O ecra de bem-vindo da nova sessão"
+   },
+   "SETTINGS_WELCOME_SCREEN_TOOLTIP": {
+      "description": "Show information screen after session is created",
+      "message": "Mostra o ecra da informação depois criar sessão"
+   },
+   "SIGN_IN_AS_GUEST": {
+      "message": "ou logear como visitante"
+   },
+   "SIGN_OUT": {
+      "description": "Sign out menu item",
+      "message": "Sair"
+   },
+   "VIEW_BY_GROUP": {
+      "message": "Mostrar por grupo"
+   },
+   "VIEW_BY_SESSION": {
+      "description": "Show by Session",
+      "message": "Mostrar por sessão"
+   },
+   "VIEW_BY_SITE": {
+      "description": "Show by Site",
+      "message": "Mostrar por página"
+   },
+   "WEBSITES": {
+      "message": "Sites"
+   },
+   "WORK_AREA": {
+      "description": "The business field where the user work",
+      "message": "Área do trabalho"
+   },
+   "WORK_AREA_CATEGORY_IT": {
+      "message": "IT & Software development"
+   },
+   "WORK_AREA_CATEGORY_OTHER": {
+      "message": "Outro"
+   },
+   "YOUR_NEW_SESSION_IS": {
+      "description": "'Your new session is' and an input field will follow this phrase with the name of the user's new session",
+      "message": "A nova sessão é"
+   },
+   "it_qa": {
+      "message": "Segurança da Qualidade"
+   },
+   "it_services": {
+      "message": "Serviços  IT"
+   },
+   "it_software_development": {
+      "message": "Software Development"
+   },
+   "other_agriculture": {
+      "message": "Agricultura"
+   },
+   "other_architecture": {
+      "message": "Arquitetura"
+   },
+   "other_business_management": {
+      "message": "Administração do Acordo"
+   },
+   "other_education_training": {
+      "message": "Educação e Treinamento"
+   },
+   "other_finance": {
+      "message": "Finanças"
+   },
+   "other_government": {
+      "message": "Governo e Administração Pública"
+   },
+   "other_health": {
+      "message": "Saud"
+   },
+   "other_hospitality": {
+      "message": "Hospitalidade e Túrismo"
+   },
+   "other_human_services": {
+      "message": "Serviços Humanos"
+   },
+   "other_law_security": {
+      "message": "Lei e Segurança Publica"
+   },
+   "other_manufacturing": {
+      "message": "Manufactura"
+   },
+   "other_marketing_sales": {
+      "message": "Marketing, vendas e Serviços"
+   },
+   "other_other": {
+      "message": "Outro"
+   },
+   "other_science": {
+      "message": "Ciência, Tecnologia, Engenharia, Matemática"
+   },
+   "other_transportation": {
+      "message": "Transporte e logística"
+   }
+}

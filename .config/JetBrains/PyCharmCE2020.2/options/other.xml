@@ -1,0 +1,51 @@
+<application>
+  <component name="EduSettings">
+    <option name="lastTimeChecked" value="1605370677745" />
+    <option name="shownCourseIds">
+      <set />
+    </option>
+    <option name="javaUiLibrary" value="JavaFX" />
+  </component>
+  <component name="HyperskillSettings">
+    <option name="updateAutomatically" value="true" />
+    <HyperskillAccount>
+      <option name="accessToken" value="tJTiLM9NaNVgAE4YOsmxxhwfbiOfPe" />
+      <option name="expiresIn" value="1605406865" />
+      <option name="refreshToken" value="vIP1Sb69AhDCNTWFLmX8fa15SHWxYb" />
+      <option name="email" value="danieldiazgonza52@gmail.com" />
+      <option name="fullname" value="Daniel Diaz" />
+      <option name="guest" value="false" />
+      <option name="hyperskillProjectId" value="102" />
+      <option name="id" value="13096264" />
+    </HyperskillAccount>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Edu.CourseCreator.Enabled" value="true" />
+    <property name="Educational.recentCoursesFilled" value="true" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="InstalledPluginsSearchHistory" value="i&#10;id&#10;ide&#10;idea&#10;f" />
+    <property name="MarketplacePluginsSearchHistory" value="idea&#10;if&#10;ifdea&#10;iffd&#10;ifer" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="ask.about.ctrl.y.shortcut.v2" value="true" />
+    <property name="com.jetbrains.edu.LAST_UPDATE" value="1605371044303" />
+    <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/github/game-of-life" />
+    <property name="file.gist.reindex.count" value="6158" />
+    <property name="fileTypeChangedCounter" value="3" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="lastSeenTip" value="neue-MethodSeparators.html" />
+    <property name="lastTimeTipsWereShown" value="1605371039625" />
+    <property name="last_opened_file_path" value="$USER_HOME$/github/game-of-life" />
+    <property name="org.jetbrains.r.editor.welcomeGuide" value="true" />
+    <property name="seenTips" value="neue-MethodSeparators.html" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+</application>

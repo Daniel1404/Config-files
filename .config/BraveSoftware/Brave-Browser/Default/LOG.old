@@ -1,0 +1,8 @@
+2020/11/13-23:12:31.354 c2b Recovering log #15
+2020/11/13-23:12:31.377 c2b Level-0 table #18: started
+2020/11/13-23:12:31.415 c2b Level-0 table #18: 6639 bytes OK
+2020/11/13-23:12:31.501 c2b Delete type=0 #15
+2020/11/13-23:12:31.501 c2b Delete type=3 #13
+2020/11/13-23:53:36.366 df0 Level-0 table #21: started
+2020/11/13-23:53:36.416 df0 Level-0 table #21: 63115 bytes OK
+2020/11/13-23:53:36.451 df0 Delete type=0 #19

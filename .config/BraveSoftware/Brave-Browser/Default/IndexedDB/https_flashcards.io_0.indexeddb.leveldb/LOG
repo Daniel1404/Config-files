@@ -1,0 +1,5 @@
+2020/11/12-16:20:32.139 b68 Reusing MANIFEST /home/daniel/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_flashcards.io_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/12-16:20:37.038 a45 Level-0 table #5: started
+2020/11/12-16:20:37.074 a45 Level-0 table #5: 18341 bytes OK
+2020/11/12-16:20:37.252 a45 Delete type=0 #3
+2020/11/12-16:20:37.253 a45 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

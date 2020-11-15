@@ -1,0 +1,17 @@
+<application>
+  <component name="CoursesStorage">
+    <courses>
+      <course>
+        <option name="courseMode" value="Study" />
+        <option name="description" value="The times of sitting down with a coffee and reading a newspaper seem to have passed. Now everyone gets news from their laptops or phones, so online news websites are very popular. These sites specialize on the collecting and sharing general news or materials on some specific topic. Some are independent projects, and others, like The New York Times, expanded from what wasn't initially made for the online world. What they all have in common is their basic structure. In this project, you will create a web application for online news with the help of Django.&lt;br/&gt;&lt;br/&gt;Learn more at &lt;a href=&quot;https://hyperskill.org&quot;&gt;https://hyperskill.org/projects/102&lt;/a&gt;" />
+        <option name="humanLanguage" value="English" />
+        <option name="id" value="102" />
+        <option name="location" value="$USER_HOME$/PycharmProjects/HyperNews Portal" />
+        <option name="name" value="HyperNews Portal" />
+        <option name="programmingLanguage" value="Python" />
+        <option name="tasksTotal" value="5" />
+        <option name="type" value="Hyperskill" />
+      </course>
+    </courses>
+  </component>
+</application>

@@ -1,0 +1,745 @@
+{
+   "ACCOUNT": {
+      "message": "Compte"
+   },
+   "ACCOUNT_DISABLED": {
+      "message": "Compte désactivé"
+   },
+   "ACCOUNT_NOT_FOUND": {
+      "message": "Compte introuvable"
+   },
+   "ACCOUNT_TYPE": {
+      "message": "Type de compte"
+   },
+   "ACHIEVEMENT_MULTI1_SECONDARY": {
+      "message": "Avoir 2 AlterEgos sur un site. Plus simple que le mode incognito, n'est-ce pas ?"
+   },
+   "ACHIEVEMENT_MULTI1_TEXT": {
+      "message": "Compte multiple"
+   },
+   "ACHIEVEMENT_MULTI1_TWEET": {
+      "message": "Gérer plus de 2 AlterEgos sur un site. Plus simple que le mode incognito, n'est-ce pas ? via @session_box"
+   },
+   "ACHIEVEMENT_MULTI2_SECONDARY": {
+      "message": "Avoir 5 AlterEgos sur un site. C'est quelque chose !"
+   },
+   "ACHIEVEMENT_MULTI2_TEXT": {
+      "message": "Utilisateur Multi-compte avancé"
+   },
+   "ACHIEVEMENT_MULTI2_TWEET": {
+      "message": "Gérer plus de 5 AlterEgos sur un site avec @session_box. C'est quelque chose !"
+   },
+   "ACHIEVEMENT_MULTI3_SECONDARY": {
+      "message": "10 AlterEgos sur un site. Vous devez avoir quelque chose à cacher !"
+   },
+   "ACHIEVEMENT_MULTI3_TEXT": {
+      "message": "M. Alterego"
+   },
+   "ACHIEVEMENT_MULTI3_TWEET": {
+      "message": "10 AlterEgos sur un site. Vous devez avoir quelque chose à cacher ! via @session_box"
+   },
+   "ACHIEVEMENT_USAGE1_SECONDARY": {
+      "message": "Commencer à gérer vos sessions..."
+   },
+   "ACHIEVEMENT_USAGE1_TEXT": {
+      "message": "Utilisateur novice"
+   },
+   "ACHIEVEMENT_USAGE1_TWEET": {
+      "message": "Commencer à gérer mes sessions... via @session_box"
+   },
+   "ACHIEVEMENT_USAGE2_SECONDARY": {
+      "message": "50 ouvertures d'un site. S'habituer à la gestion de sessions"
+   },
+   "ACHIEVEMENT_USAGE2_TEXT": {
+      "message": "Utilisateur avancé"
+   },
+   "ACHIEVEMENT_USAGE2_TWEET": {
+      "message": "50 ouvertures d'un site via @session_box"
+   },
+   "ACHIEVEMENT_USAGE3_SECONDARY": {
+      "message": "100 sessions ouvertes pour une seule application"
+   },
+   "ACHIEVEMENT_USAGE3_TEXT": {
+      "message": "M. Session"
+   },
+   "ACHIEVEMENT_USAGE3_TWEET": {
+      "message": "M. Session. 100 sessions ouvertes pour une seule application via @session_box"
+   },
+   "ADD": {
+      "message": "Ajouter"
+   },
+   "ADD_NEW_URL_SITE_TOOLTIP": {
+      "message": "Ajouter une nouvelle URL pour cette session"
+   },
+   "ADD_WEBSITE": {
+      "message": "Ajouter un site web"
+   },
+   "AUTO_START": {
+      "message": "Démarrage du navigateur"
+   },
+   "BOOKMARK_CREATED": {
+      "message": "Bookmark créé"
+   },
+   "BUG_REPORT": {
+      "message": "Rapport d'erreur"
+   },
+   "BULK_DELETE": {
+      "message": "Supprimer les options sélectionnées"
+   },
+   "BULK_MOVE": {
+      "message": "Déplacer vers un groupe"
+   },
+   "BULK_OPEN": {
+      "message": "Ouvrir les option sélectionnées"
+   },
+   "CANCEL": {
+      "description": "Button text",
+      "message": "Annuler"
+   },
+   "CANNOT_RECOVER": {
+      "message": "Vous ne pouvez pas récupérer votre mot de passe"
+   },
+   "CANNOT_RECOVER_PASSWORD": {
+      "message": "Vous ne pouvez pas récupérer votre mot de passe"
+   },
+   "CANNOT_SYNC_IN_GUEST_MODE": {
+      "message": "La synchronisation entre périphériques n'est pas disponible en mode invité"
+   },
+   "CANT_CREATE_HERE": {
+      "message": "Vous ne pouvez pas créer la session ici"
+   },
+   "CHANGE": {
+      "message": "Modification"
+   },
+   "CHANGE_PASSWORD": {
+      "message": "Modifier mon mot de passe"
+   },
+   "CLEAR_AUTO_START_SETTINGS": {
+      "message": "Réinitialiser toutes les sessions de démarrage automatique"
+   },
+   "CLEAR_AUTO_START_SETTINGS_SUCCESS": {
+      "message": "Ouverture avec le navigateur désactivée pour toutes les sessions"
+   },
+   "CLEAR_PROXY_SETTINGS": {
+      "message": "Réinitialiser tous les réglages proxy de la session"
+   },
+   "CLEAR_PROXY_SETTINGS_SUCCESS": {
+      "message": "Tous les proxy de cette session sont désactivés"
+   },
+   "CLEAR_RECENT_LIST": {
+      "message": "Effacer les sessions récentes"
+   },
+   "CLICK_FOR_MORE_INFO": {
+      "message": "Cliquez ici pour plus d'informations."
+   },
+   "CLOSE": {
+      "message": "Fermer"
+   },
+   "CLOSE_SEARCH": {
+      "message": "Fermer la recherche"
+   },
+   "COMMAND": {
+      "message": "Commande"
+   },
+   "CONTINUE": {
+      "description": "Button text",
+      "message": "Continuer"
+   },
+   "CREATE": {
+      "description": "Button text",
+      "message": "Créer"
+   },
+   "CREATE_ACCOUNT": {
+      "description": "Create account button text",
+      "message": "Créer un compte"
+   },
+   "CREATE_BOOKMARK": {
+      "description": "Button text",
+      "message": "Ajouter une URL à la session"
+   },
+   "CREATE_BOOKMARK_MENU": {
+      "message": "Créer un signet"
+   },
+   "CREATE_FIRST_PART1": {
+      "description": "First part of the phrase: 'Click on the (+) button and create your first session!' The phrase is divided with an image, thats why it is separated into two parts.",
+      "message": "Cliquez sur le"
+   },
+   "CREATE_FIRST_PART2": {
+      "description": "Second part of the phrase: 'Click on the (+) button and create your first session!' The phrase is divided with an image, thats why it is separated into two parts.",
+      "message": "bouton et créez votre première session !"
+   },
+   "CREATE_LAUNCH_URL": {
+      "message": "Créer une url directe"
+   },
+   "CREATE_NEW_ACCOUNT": {
+      "description": "Create a new account button text",
+      "message": "Créer un nouveau compte"
+   },
+   "CURRENT_SITE_SESSIONS": {
+      "message": "Sessions pour le site actuel"
+   },
+   "DEFAULT": {
+      "description": "Default site",
+      "message": "Site par défaut"
+   },
+   "DELETE": {
+      "description": "Button text",
+      "message": "Supprimer"
+   },
+   "DELETE_ALL": {
+      "message": "Supprimer tout"
+   },
+   "DELETE_CONFIRMATION_GROUP": {
+      "message": "Êtes-vous sûr de vouloir supprimer toutes les sessions de ce groupe?"
+   },
+   "DELETE_CONFIRMATION_SESSION": {
+      "message": "Êtes-vous sûr de vouloir supprimer toutes les sessions pour ce site?"
+   },
+   "DELETE_CONFIRMATION_SITE": {
+      "message": "Are you sure you want to delete all sessions for this site?"
+   },
+   "DELETE_SELECTED": {
+      "message": "Supprimer sélectionnée"
+   },
+   "DID_YOU_KNOW": {
+      "message": "Le saviez-vous ?"
+   },
+   "DISMISS": {
+      "message": "Rejeter"
+   },
+   "DONT_SHOW_AGAIN": {
+      "description": "Don't show again",
+      "message": "Ne plus afficher"
+   },
+   "EDIT_SESSION": {
+      "description": "Session options",
+      "message": "Options de session"
+   },
+   "EMAIL": {
+      "description": "Email address field label",
+      "message": "E-mail"
+   },
+   "EMAIL_TAKEN": {
+      "description": "Email address already in use error message",
+      "message": "Adresse e-mail déjà utilisée"
+   },
+   "ENTER_RECOVERY_CODE": {
+      "message": "Nous avons envoyé un code de récupération à l’adresse suivante : {{email}}. Veuillez consulter votre boîte mail et saisissez le code de récupération envoyé."
+   },
+   "ENTER_VALID_EMAIL": {
+      "description": "Please enter valid email error message",
+      "message": "Veuillez saisir un e-mail valide"
+   },
+   "ENTER_YOUR_CREDENTIALS_TO_START": {
+      "description": "Inform user he has to sign in to access the service",
+      "message": "Veuillez vous connecter pour conserver vos données en sécurité et synchronisées."
+   },
+   "FAVORITES": {
+      "message": "Favoris"
+   },
+   "FOLDER": {
+      "message": "Dossier"
+   },
+   "FOLLOW_US_ON_TWITTER": {
+      "message": "Suivez-nous sur Twitter"
+   },
+   "FORGOT_PASSWORD": {
+      "message": "Mot de passe oublié ?"
+   },
+   "FORMAT_ERROR": {
+      "message": "Erreur de format"
+   },
+   "FREE_LIMIT_REACHED": {
+      "message": "Vous avez atteint la limite de sessions gratuites synchronisées"
+   },
+   "FREE_LIMIT_REACHED_HARD": {
+      "message": "Mise à niveau pour la synchronisation illimitée."
+   },
+   "FREE_LIMIT_WARNING": {
+      "message": "La synchronisation entre dispositifs est désactivée pour cette session, parce que vous avez atteint la limite du plan de base."
+   },
+   "FREE_LIMIT_WARNING_LINK": {
+      "message": "Améliorez votre abonnement pour la synchronisation illimitée."
+   },
+   "GOT_IT": {
+      "description": "Got it!",
+      "message": "J'ai compris !"
+   },
+   "GROUP": {
+      "message": "Groupe"
+   },
+   "GUEST_CREATE_ACCOUNT": {
+      "message": "Créez un compte pour synchroniser vos données."
+   },
+   "GUEST_MODE_NOTICE": {
+      "message": "En MODE INVITÉ, vos données ne sont pas synchronisées. Vous perdrez vos sessions lorsque vous vous déconnecterez ou redémarrez votre navigateur."
+   },
+   "GUEST_MODE_WARNING": {
+      "message": "La synchronisation ainsi que certaines fonctionnalités ne sont pas disponibles en mode invité. Vous pouvez utiliser une session locale et synchronisée en même temps si vous @créez un compte@."
+   },
+   "HELLO_STRANGER": {
+      "description": "Welcomes unauthorized user",
+      "message": "Bonjour étranger !"
+   },
+   "HINT_ERROR": {
+      "message": "Veuillez saisir une question, pas votre code"
+   },
+   "HOME": {
+      "message": "Accueil"
+   },
+   "ICON": {
+      "message": "Icône"
+   },
+   "INVALID_CREDENTIALS": {
+      "description": "Error message (user given wrong username or password)",
+      "message": "Références non valides"
+   },
+   "I_ACCEPT_TERMS": {
+      "message": "J'accepte les @Conditions générales@ et la @Politique de confidentialité@"
+   },
+   "KEYBOARD_SHORTCUT": {
+      "message": "Raccourci clavier"
+   },
+   "KNOWLEDGE_BASE": {
+      "message": "Base de connaissances"
+   },
+   "LAUNCH_URL_INFO": {
+      "message": "Vous pouvez lancer cette session avec l'url suivante :"
+   },
+   "LOCAL_SESSION": {
+      "message": "Désactivé"
+   },
+   "LOCAL_SESSION_SECONDARY": {
+      "message": "Cette session sera disponible uniquement sur cet appareil"
+   },
+   "LOG_IN": {
+      "description": "Log in button text",
+      "message": "Se connecter"
+   },
+   "MARKETING_BOOKMARKS": {
+      "message": "Ajoutez des sessions à votre barre de favoris et créez des urls de lancement !"
+   },
+   "MARKETING_BULK": {
+      "message": "Supprimez, déplacez ou ouvrez plusieurs sessions à la fois"
+   },
+   "MARKETING_ICONS": {
+      "message": "Personnalisez vos sessions avec des icônes !"
+   },
+   "MARKETING_PROXY": {
+      "message": "Définissez un proxy différent pour chaque onglet !"
+   },
+   "MAXIMUM_CHARACTERS": {
+      "message": "{{num}} caractères maximum"
+   },
+   "MINIMUM_CHARACTERS": {
+      "description": "Error message. {{num}} is replaced with actual number",
+      "message": "{{num}} caractères minimum"
+   },
+   "MORE_INFO": {
+      "description": "More info",
+      "message": "Plus d'infos"
+   },
+   "MORE_INFO_LINE1": {
+      "message": "Maintenant, vous pouvez vous connecter au {{site}} avec un de vos comptes, et l’utiliser indépendamment des autres onglets. Si vous fermez cet onglet, vous pouvez reprendre cette session à tout moment dans le menu SessionBox."
+   },
+   "MORE_INFO_LINE2": {
+      "message": "Le nom et la couleur de la session sont attribués automatiquement. Vous pouvez les modifier à partir du menu SessionBox en utilisant les trois points."
+   },
+   "MORE_OPTIONS": {
+      "message": "Autres options"
+   },
+   "NAME": {
+      "description": "Field label (session's name)",
+      "message": "Nom"
+   },
+   "NAVIGATE_TO_WEBSITE": {
+      "message": "Accédez à un site Web et ouvrez à nouveau ce menu."
+   },
+   "NETWORK_ERROR": {
+      "description": "Error message (internet is not connected)",
+      "message": "Erreur réseau"
+   },
+   "NEW_PASSWORD": {
+      "message": "Nouveau mot de passe"
+   },
+   "NEW_SESSION": {
+      "description": "New session",
+      "message": "Nouvelle session"
+   },
+   "NEW_SESSION_COMMAND": {
+      "message": "Nouvelle session"
+   },
+   "NEW_TEMPORARY_SESSION_COMMAND": {
+      "message": "Nouvelle session temporaire"
+   },
+   "NOTIFICATIONS": {
+      "message": "Notifications"
+   },
+   "NOT_AVAILABLE_IN_GUEST_MODE": {
+      "message": "Option non disponible en mode invité"
+   },
+   "NO_SESSIONS_YET": {
+      "description": "{{site}} is a placeholder, it will be replaced with a website name",
+      "message": "Encore aucune session du {{site}}"
+   },
+   "OLD_PASSWORD": {
+      "message": "Ancien mot de passe"
+   },
+   "OPEN_ALL_SITE": {
+      "description": "Open all site",
+      "message": "Ouvrir tout le site"
+   },
+   "OPEN_IN_EXISTING_SESSION_CONTEXT": {
+      "message": "Ajouter à la session existante"
+   },
+   "OPEN_IN_NEW_SESSION_CONTEXT": {
+      "message": "Ouvrir une nouvelle session"
+   },
+   "OPEN_IN_NEW_TEMPORARY_SESSION_CONTEXT": {
+      "message": "Ouvrir une session temporaire"
+   },
+   "OPEN_ON_START": {
+      "message": "Ouvrir cette session avec le navigateur"
+   },
+   "OPEN_ON_START_NOTICE": {
+      "message": "ATTENTION : Vous devez activer l'option « Rester connecté » lors de la connexion pour utiliser cette fonctionnalité. Elle n'est pas disponible en MODE INVITÉ."
+   },
+   "OPEN_POPUP_COMMAND": {
+      "message": "Ouvrir le menu SessionBox"
+   },
+   "OR_SIGN_IN": {
+      "description": "Continue the registration phrase 'Create account or sign in'",
+      "message": "ou se connecter"
+   },
+   "OTHER": {
+      "description": "Other",
+      "message": "Autre"
+   },
+   "OTHER_SESSIONS": {
+      "message": "Autres sessions"
+   },
+   "PASSWORD": {
+      "description": "Password field label",
+      "message": "Mot de passe"
+   },
+   "PASSWORD_AGAIN": {
+      "description": "Password again field label",
+      "message": "Répéter le mot de passe"
+   },
+   "PASSWORD_CHANGED": {
+      "message": "Mot de passe modifié !"
+   },
+   "PASSWORD_CHANGE_WARNING": {
+      "message": "Si vous utilisez SessionBox dans d'autres navigateurs, nous vous recommandons fortement de vous déconnecter et de vous reconnecter avec votre nouveau mot de passe."
+   },
+   "PASSWORD_HINT": {
+      "message": "Question secrète de récupération"
+   },
+   "PASSWORD_HINT_LABEL": {
+      "message": "Question de récupération de mot de passe (facultatif)"
+   },
+   "PASSWORD_MISMATCH": {
+      "description": "Error message",
+      "message": "Les mots de passe ne correspondent pas"
+   },
+   "PASSWORD_NOTICE": {
+      "description": "Title of dialog where we notify the user, if he forgets his password we can't recover it",
+      "message": "Remarque sur le mot de passe"
+   },
+   "PASSWORD_NOTICE_LINE1": {
+      "description": "Notice text line 1",
+      "message": "SessionBox utilise votre mot de passe pour protéger vos données. Pour assurer votre sécurité, votre mot de passe ne quittera jamais votre ordinateur. Par conséquent, nous ne pouvons pas restaurer votre mot de passe si vous l’oubliez."
+   },
+   "PASSWORD_NOTICE_LINE2": {
+      "description": "Notice text line 2",
+      "message": "Pour confirmer votre mot de passe, veuillez le saisir une fois de plus."
+   },
+   "PASSWORD_RECOVERY": {
+      "message": "Récupération du mot de passe"
+   },
+   "PASSWORD_TOO_WEAK": {
+      "message": "Ce mot de passe n'est pas assez complexe"
+   },
+   "PICK_COLOR": {
+      "description": "Color chooser label",
+      "message": "Choisir une couleur"
+   },
+   "PLEASE_WAIT": {
+      "message": "Veuillez patienter..."
+   },
+   "PROMO_SHORT": {
+      "description": "Promo text for the extension",
+      "message": "L’utilisation de sites Web avec plusieurs utilisateurs en même temps est facilitée. Créez un onglet indépendant en un clic."
+   },
+   "PROXY": {
+      "message": "Proxy (expérimental)"
+   },
+   "PROXY_ADDRESS": {
+      "message": "Adresse"
+   },
+   "PROXY_PORT": {
+      "message": "Port"
+   },
+   "PROXY_SETTINGS_UPDATED": {
+      "message": "Paramètres proxy mis à jour"
+   },
+   "PROXY_UNAVAILABLE": {
+      "message": "Vous ne pouvez pas utiliser la session proxy parce qu’une autre extension contrôle les paramètres de proxy ou cela va à l'encontre de la politique du système."
+   },
+   "RATE_US": {
+      "message": "Évaluez-nous !"
+   },
+   "RECENT": {
+      "message": "Récent"
+   },
+   "RECENT_LIST_CLEARED": {
+      "message": "Liste récente débloquée"
+   },
+   "RECONNECTING": {
+      "message": "Reconnexion à votre compte SessionBox."
+   },
+   "RECONNECTING_PLEASE_WAIT": {
+      "message": "Veuillez patienter..."
+   },
+   "RECOVERY_CODE": {
+      "message": "Code de récupération"
+   },
+   "RELOAD": {
+      "message": "Redémarrer"
+   },
+   "REMEMBER_ME": {
+      "description": "User login will be permanent until he logs out if he checks this checkbox",
+      "message": "Rester connecté"
+   },
+   "RENAME_GROUP": {
+      "message": "Renommer le groupe"
+   },
+   "REPEAT_PASSWORD": {
+      "description": "Repeat password field label",
+      "message": "Répéter le mot de passe"
+   },
+   "REQUIRED_FIELD": {
+      "description": "This field is required error message",
+      "message": "Ce champ est requis"
+   },
+   "SAVE": {
+      "description": "Button text",
+      "message": "Enregistrer"
+   },
+   "SAVE_SUCCESS": {
+      "message": "Complété avec succès!"
+   },
+   "SEARCH_RESUlTS": {
+      "message": "Résultats de la recherche"
+   },
+   "SEND_FEEDBACK": {
+      "description": "Send feedback menu item",
+      "message": "Envoyer des commentaires"
+   },
+   "SEND_IDEA": {
+      "message": "Envoyer votre suggestion"
+   },
+   "SESSIONS": {
+      "description": "Sessions",
+      "message": "Sessions"
+   },
+   "SESSION_NOT_AVAILABLE": {
+      "message": "La session est supprimée ou elle n'est pas disponible sur cet appareil."
+   },
+   "SESSION_SETTINGS": {
+      "description": "Dialog title",
+      "message": "Session"
+   },
+   "SESSION_TYPE": {
+      "message": "Synchronisation entre périphériques"
+   },
+   "SETTINGS": {
+      "description": "Settings menu item",
+      "message": "Paramètres"
+   },
+   "SETTINGS_HELP": {
+      "description": "Help",
+      "message": "Aide"
+   },
+   "SETTINGS_INCUBATE": {
+      "description": " Incubate sessions",
+      "message": "Maintenir les sessions"
+   },
+   "SETTINGS_INCUBATE_TOOLTIP": {
+      "description": "Keep sessions alive when you don't use them",
+      "message": "Gardez les sessions actives lorsque vous ne les utilisez pas"
+   },
+   "SETTINGS_INHERIT": {
+      "description": " Inherit from parent tab",
+      "message": " Hériter de l'onglet parent"
+   },
+   "SETTINGS_INHERIT_TOOLTIP": {
+      "description": "When you open a tab, it will inherit the parent tab's session",
+      "message": "Lorsque vous ouvrez un onglet, il héritera de la session de l’onglet parent"
+   },
+   "SETTINGS_LANGUAGE": {
+      "description": "Language",
+      "message": "Langue"
+   },
+   "SETTINGS_LANGUAGE_AUTOMATIC": {
+      "description": "Automatic",
+      "message": "Automatique"
+   },
+   "SETTINGS_PAGE_RENAME": {
+      "message": "Modifier le titre de l'onglet"
+   },
+   "SETTINGS_PAGE_RENAME_TOOLTIP": {
+      "message": "Remplacer le titre de l'onglet par le nom de la session"
+   },
+   "SETTINGS_WELCOME_SCREEN": {
+      "description": "New session welcome screen",
+      "message": "Écran d'accueil de la nouvelle session"
+   },
+   "SETTINGS_WELCOME_SCREEN_TOOLTIP": {
+      "description": "Show information screen after session is created",
+      "message": "Afficher l'écran d'information après la création d'une session"
+   },
+   "SET_PROXY": {
+      "message": "Utiliser le proxy pour cette session"
+   },
+   "SHORTCUTS": {
+      "message": "Hotkeys"
+   },
+   "SIGN_IN_AS_GUEST": {
+      "message": "ou se connecter en tant qu'invité"
+   },
+   "SIGN_OUT": {
+      "description": "Sign out menu item",
+      "message": "Se déconnecter"
+   },
+   "SUBSCRIPTION_AND_BILLING": {
+      "message": "Abonnement et facturation"
+   },
+   "SUPPORT_SESSIONBOX": {
+      "message": "Soutenez SessionBox et déverrouillez quelques fonctionnalités supplémentaires"
+   },
+   "SYNCED_SESSION": {
+      "message": "Activé"
+   },
+   "SYNCED_SESSION_SECONDARY": {
+      "message": "Cette session sera synchronisée entre vos différents appareils, en toute sécurité"
+   },
+   "TEMPORARY_SESSIONS_INFO": {
+      "message": "Vous pouvez créer des sessions temporaires pour un usage unique. Cliquez pour en savoir plus."
+   },
+   "TURN_OFF_SYNC_BY_DEFAULT": {
+      "message": "Désactiver la synchronisation par défaut"
+   },
+   "TURN_OFF_SYNC_BY_DEFAULT_TOOLTIP": {
+      "message": "La synchronisation entre périphériques sera désactivée par défaut lorsque vous créez une nouvelle session."
+   },
+   "UNKNOWN_ERROR": {
+      "message": "Erreur inconnue"
+   },
+   "UPDATE_PROXY": {
+      "message": "Mise à jour des paramètres de proxy"
+   },
+   "UPGRADE": {
+      "message": "Surclassement"
+   },
+   "UPGRADE_CTA": {
+      "message": "Obtenir plus d'informations"
+   },
+   "VIEW_BY_GROUP": {
+      "message": "Afficher par groupe"
+   },
+   "VIEW_BY_SESSION": {
+      "description": "Show by Session",
+      "message": "Afficher par session"
+   },
+   "VIEW_BY_SITE": {
+      "description": "Show by Site",
+      "message": "Afficher par site"
+   },
+   "WEBSITES": {
+      "message": "Sites"
+   },
+   "WEBSITE_ADDED": {
+      "message": "Site ajouté"
+   },
+   "WEBSITE_URL": {
+      "message": "URL du site web"
+   },
+   "WHATS_NEW": {
+      "message": "Ce qui est nouveau"
+   },
+   "WORK_AREA": {
+      "description": "The business field where the user work",
+      "message": "Secteur professionnel"
+   },
+   "WORK_AREA_CATEGORY_IT": {
+      "message": "Informatique & Développement de logiciels"
+   },
+   "WORK_AREA_CATEGORY_OTHER": {
+      "message": "Autre"
+   },
+   "WRONG_LOGIN_USER": {
+      "message": "Cette session appartient à @email@. Veuillez vous connecter à SessionBox pour lancer cette session."
+   },
+   "WRONG_OLD_PASSWORD": {
+      "message": "L'ancien mot de passe saisi est erroné"
+   },
+   "YOUR_NEW_SESSION_IS": {
+      "description": "'Your new session is' and an input field will follow this phrase with the name of the user's new session",
+      "message": "Votre nouvelle session est"
+   },
+   "it_qa": {
+      "message": "Assurance qualité"
+   },
+   "it_services": {
+      "message": "Services informatiques"
+   },
+   "it_software_development": {
+      "message": "Développement de logiciels"
+   },
+   "other_agriculture": {
+      "message": "Agriculture"
+   },
+   "other_architecture": {
+      "message": "Architecture"
+   },
+   "other_business_management": {
+      "message": "Gestion d'entreprise"
+   },
+   "other_education_training": {
+      "message": "Éducation et formation"
+   },
+   "other_finance": {
+      "message": "Finance"
+   },
+   "other_government": {
+      "message": "Gouvernement et administration publique"
+   },
+   "other_health": {
+      "message": "Santé"
+   },
+   "other_hospitality": {
+      "message": "Accueil et Tourisme"
+   },
+   "other_human_services": {
+      "message": "Services à la personne"
+   },
+   "other_law_security": {
+      "message": "Justice, sûreté et sécurité publique"
+   },
+   "other_manufacturing": {
+      "message": "Industrie"
+   },
+   "other_marketing_sales": {
+      "message": "Marketing, ventes et service"
+   },
+   "other_other": {
+      "message": "Autre"
+   },
+   "other_science": {
+      "message": "Science, technologie, ingénierie, mathématiques"
+   },
+   "other_transportation": {
+      "message": "Transport et logistique"
+   }
+}

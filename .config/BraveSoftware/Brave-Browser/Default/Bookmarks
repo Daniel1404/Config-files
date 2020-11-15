@@ -1,0 +1,382 @@
+{
+   "checksum": "4ccf134e3f55674cb5e2a0c2d6348b22",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13244148256000000",
+                  "guid": "6af14d35-c864-40f8-a2b1-022fdb36b7e1",
+                  "id": "7",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/products/firefox"
+               }, {
+                  "date_added": "13244148256000000",
+                  "guid": "342658d6-f6da-4551-b812-ce020e57860c",
+                  "id": "8",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13244148256000000",
+                  "guid": "6a8d2aa9-6e5d-46a7-aeb9-931080615bb7",
+                  "id": "9",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13244148256000000",
+                  "guid": "ef2d2e63-262b-4b92-85bc-ff429e69a8b8",
+                  "id": "10",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               }, {
+                  "date_added": "13247278289329805",
+                  "guid": "aec80cdb-cc2b-433d-9f07-add8d65d463e",
+                  "id": "11",
+                  "name": "Pacman PWA",
+                  "type": "url",
+                  "url": "https://bobrov.dev/pacman-pwa/index.html"
+               }, {
+                  "date_added": "13247282373936760",
+                  "guid": "22e3f04a-6c51-429c-91c6-5227bf665d1c",
+                  "id": "12",
+                  "name": "Opera GX: el navegador para gamers y sus GX Control en Linux",
+                  "type": "url",
+                  "url": "https://www.linuxadictos.com/opera-gx-el-navegador-para-gamers-gx-control-linux.html"
+               }, {
+                  "date_added": "13247293870157484",
+                  "guid": "8d1b5def-434a-4841-9204-8b035b4c5680",
+                  "id": "13",
+                  "name": "Appscope - Progressive Web Apps Examples",
+                  "type": "url",
+                  "url": "https://appsco.pe/"
+               }, {
+                  "date_added": "13247328762848194",
+                  "guid": "e324e3d5-7af5-4009-8b01-507277b1c382",
+                  "id": "14",
+                  "name": "AutoHotkey",
+                  "type": "url",
+                  "url": "https://www.autohotkey.com/"
+               }, {
+                  "date_added": "13247334492172103",
+                  "guid": "17ccbc8c-e9c0-473e-bb3f-7f26861ff116",
+                  "id": "15",
+                  "name": "Web Skills",
+                  "type": "url",
+                  "url": "https://andreasbm.github.io/web-skills/?compact"
+               }, {
+                  "date_added": "13247356631131749",
+                  "guid": "6e4fd4cc-cbc8-40f7-a4b5-2b1916edca3c",
+                  "id": "16",
+                  "name": "GitHub - microsoft/PowerToys: Windows system utilities to maximize productivity",
+                  "type": "url",
+                  "url": "https://github.com/microsoft/PowerToys"
+               } ],
+               "date_added": "13249689556427476",
+               "date_modified": "13249689556427476",
+               "guid": "71e3516b-0fbc-47dd-af91-f9ef92458e35",
+               "id": "6",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "date_added": "13245908596658239",
+               "guid": "1e1c5854-2ad6-4f1d-b162-0383e452e7d9",
+               "id": "17",
+               "name": "How to Push Your Code to Github and Publish Your First Page | by Thiam Hock Ng | Singapore Rails Learning Group | Medium",
+               "type": "url",
+               "url": "https://medium.com/singapore-rails-learning-group/how-to-push-your-code-to-github-and-publish-your-first-page-8b0e1f4caf2a"
+            }, {
+               "date_added": "13246253663391457",
+               "guid": "e4412d22-9465-47fe-84df-d74cc5928a96",
+               "id": "18",
+               "name": "How to become a private tutor - Save the Student",
+               "type": "url",
+               "url": "https://www.savethestudent.org/make-money/make-money-as-a-private-tutor.html"
+            }, {
+               "date_added": "13246255440900244",
+               "guid": "0e190c93-abda-456a-9fd6-d378adba7fb3",
+               "id": "19",
+               "name": "40 easy ways to make money quickly - Save the Student",
+               "type": "url",
+               "url": "https://www.savethestudent.org/make-money/10-quick-cash-injections.html"
+            } ],
+            "date_added": "13249689556426371",
+            "date_modified": "13249689556426371",
+            "guid": "837f36e3-f119-428f-a372-dbb81d54413d",
+            "id": "5",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         }, {
+            "date_added": "13248465023544402",
+            "guid": "c56f01b7-7724-4de7-8768-61767f21c493",
+            "id": "20",
+            "name": "unDraw - Open source illustrations for any idea",
+            "type": "url",
+            "url": "https://undraw.co/"
+         }, {
+            "date_added": "13248465052161454",
+            "guid": "292e7790-8d1f-46e1-9ff4-95da0377a77c",
+            "id": "21",
+            "name": "1.8 million+ Stunning Free Images to Use Anywhere - Pixabay",
+            "type": "url",
+            "url": "https://pixabay.com/"
+         }, {
+            "date_added": "13248465134533779",
+            "guid": "74036831-0b77-4960-914b-19f316ade365",
+            "id": "22",
+            "name": "Fotos de stock gratis · Pexels",
+            "type": "url",
+            "url": "https://www.pexels.com/es-es/"
+         }, {
+            "date_added": "13248465183910454",
+            "guid": "a91b87a8-ad43-4b9c-afd9-995ef66a7710",
+            "id": "23",
+            "name": "Beautiful Free Images & Pictures | Unsplash",
+            "type": "url",
+            "url": "https://unsplash.com/"
+         }, {
+            "date_added": "13248505233741832",
+            "guid": "e7d43c8f-bca5-4ae8-8cc2-10101a556639",
+            "id": "24",
+            "name": "karlbehrensg/poo-y-algoritmos-python",
+            "type": "url",
+            "url": "https://github.com/karlbehrensg/poo-y-algoritmos-python"
+         }, {
+            "date_added": "13248505892596751",
+            "guid": "a7433043-3395-4b0e-968e-626f3bee8caa",
+            "id": "25",
+            "name": "python - How can the Euclidean distance be calculated with NumPy? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/1401712/how-can-the-euclidean-distance-be-calculated-with-numpy"
+         }, {
+            "date_added": "13248588044291082",
+            "guid": "16787041-b662-4c5a-a1d7-5fc28d382378",
+            "id": "26",
+            "name": "Pablo Trinidad",
+            "type": "url",
+            "url": "https://pablotrinidad.me/"
+         }, {
+            "date_added": "13248676563395190",
+            "guid": "97146c5e-9229-4145-b8cd-7dc8a3805c1a",
+            "id": "27",
+            "name": "Hektor Profe | Academia de programación",
+            "type": "url",
+            "url": "https://www.hektorprofe.net/"
+         }, {
+            "date_added": "13248679620616129",
+            "guid": "c5096da2-cc23-4277-94cd-551aef499420",
+            "id": "28",
+            "name": "Bokeh",
+            "type": "url",
+            "url": "https://bokeh.org/"
+         }, {
+            "date_added": "13248727136436243",
+            "guid": "2267ea7f-1d5d-4a05-a519-48646b6ea3a1",
+            "id": "29",
+            "name": "Notas-fundamentos-bases-de-datos/notas.md at master · rb-one/Notas-fundamentos-bases-de-datos",
+            "type": "url",
+            "url": "https://github.com/rb-one/Notas-fundamentos-bases-de-datos/blob/master/Notas/notas.md"
+         }, {
+            "date_added": "13248729019016278",
+            "guid": "a925332a-92d6-4533-bd2a-8da5335d6f76",
+            "id": "30",
+            "name": "karlbehrensg/programacion-dinamica-y-estocastica",
+            "type": "url",
+            "url": "https://github.com/karlbehrensg/programacion-dinamica-y-estocastica"
+         }, {
+            "date_added": "13248825118313891",
+            "guid": "4847f5dc-d993-4217-9280-1b37b16368f2",
+            "id": "31",
+            "name": "Role of Underscore(_) in Python - DataCamp",
+            "type": "url",
+            "url": "https://www.datacamp.com/community/tutorials/role-underscore-python"
+         }, {
+            "date_added": "13249005210825354",
+            "guid": "d295eed6-9d03-4d18-8adc-cd3b4a5148ec",
+            "id": "32",
+            "name": "(6) WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13249017535595567",
+            "guid": "8bc436b8-773a-4f50-8f0f-e5a1d376d9d0",
+            "id": "33",
+            "name": "Monaco Editor",
+            "type": "url",
+            "url": "https://microsoft.github.io/monaco-editor/"
+         }, {
+            "date_added": "13249335733808630",
+            "guid": "3dded168-7a2a-4b7c-8931-2fa1257cbe14",
+            "id": "34",
+            "name": "Question: what key does 'SPC' refer to? · Issue #5283 · syl20bnr/spacemacs",
+            "type": "url",
+            "url": "https://github.com/syl20bnr/spacemacs/issues/5283"
+         }, {
+            "children": [ {
+               "date_added": "13249345372355226",
+               "guid": "ec84ec82-4533-4004-8166-8d9a9840c9ff",
+               "id": "36",
+               "name": "Use Vim as a Python IDE | SpaceVim",
+               "type": "url",
+               "url": "https://spacevim.org/use-vim-as-a-python-ide/#enable-language-layer"
+            }, {
+               "date_added": "13249369147709039",
+               "guid": "bfb18793-6064-43cd-ac86-29baf22a4db7",
+               "id": "37",
+               "name": "Turning Emacs into a Python IDE",
+               "type": "url",
+               "url": "https://gist.github.com/widdowquinn/987164746810f4e8b88402628b387d39"
+            }, {
+               "date_added": "13249369220808098",
+               "guid": "9c50eef4-aba5-4016-9f70-95c5741170f3",
+               "id": "38",
+               "name": "Configuring Emacs for Python – Linux Hint",
+               "type": "url",
+               "url": "https://linuxhint.com/configuring_emacs_python/"
+            } ],
+            "date_added": "13249689556436967",
+            "date_modified": "13249689556436967",
+            "guid": "194ce080-fccf-41ce-9082-e0fe1d5eb4f8",
+            "id": "35",
+            "name": "vim",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13249604085533846",
+               "guid": "bd69ead7-6b69-434a-949e-af37a1af8905",
+               "id": "40",
+               "name": "TheCodex - Online, Engaging and Fun Programming Courses",
+               "type": "url",
+               "url": "https://thecodex.me/"
+            } ],
+            "date_added": "13249689556437333",
+            "date_modified": "13249876665906023",
+            "guid": "4f2eb2a7-6080-44e1-b36c-464690c7ce1d",
+            "id": "39",
+            "name": "Programming",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13249876665906023",
+               "guid": "82e1300c-4aa6-4ff1-8ca8-53a631779696",
+               "id": "53",
+               "name": "How to store dotfiles | Atlassian Git Tutorial",
+               "type": "url",
+               "url": "https://www.atlassian.com/git/tutorials/dotfiles"
+            } ],
+            "date_added": "13249876681103517",
+            "date_modified": "13249876681103810",
+            "guid": "018271dd-cc30-400e-94ac-5a1778e6be2b",
+            "id": "54",
+            "name": "Linux",
+            "type": "folder"
+         } ],
+         "date_added": "13249689369696683",
+         "date_modified": "13249335733808630",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13246309312016920",
+            "guid": "5913047b-a17b-4301-a267-90933beacef1",
+            "id": "41",
+            "name": "Codeforces",
+            "type": "url",
+            "url": "https://codeforces.com/"
+         }, {
+            "date_added": "13246341077373672",
+            "guid": "da1c8cd8-df30-49c2-b3f4-80943cf1aab7",
+            "id": "42",
+            "name": "Online Python Compiler - Online Python Editor - Online Python IDE - Python Coding Online - Practice Python Online - Execute Python Online - Compile Python Online - Run Python Online",
+            "type": "url",
+            "url": "https://www.tutorialspoint.com/execute_python_online.php"
+         } ],
+         "date_added": "13249689369696689",
+         "date_modified": "13246341077373672",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13247359099641668",
+            "guid": "aeaeeac1-bd0e-4675-92e5-e96c5b16e13d",
+            "id": "43",
+            "name": "Facebook",
+            "type": "url",
+            "url": "https://m.facebook.com/?_rdr"
+         }, {
+            "date_added": "13247625929051122",
+            "guid": "05912b04-058c-42e9-9e2a-74d498ceb978",
+            "id": "44",
+            "name": "Getting started with Dynalist - Dynalist",
+            "type": "url",
+            "url": "https://dynalist.io/d/0-bhhZ8Abci3BlvbiGvBuKjs"
+         }, {
+            "date_added": "13247674328434223",
+            "guid": "5fd8b2fa-f389-4fa6-822e-362fab3fe94a",
+            "id": "45",
+            "name": "Socrative",
+            "type": "url",
+            "url": "https://b.socrative.com/login/student/?feature=embed"
+         }, {
+            "date_added": "13247762181685364",
+            "guid": "0b3c32f8-04ba-4af3-9532-6e5bc145ddbb",
+            "id": "46",
+            "name": "Resoomer | Resumidor para hacer un resumen automático de texto en línea",
+            "type": "url",
+            "url": "https://resoomer.com/es/"
+         }, {
+            "date_added": "13247967252443670",
+            "guid": "dcceb252-07b5-401e-be1e-8fdfef644829",
+            "id": "47",
+            "name": "EbookFoundation/free-programming-books: Freely available programming books",
+            "type": "url",
+            "url": "https://github.com/EbookFoundation/free-programming-books/"
+         }, {
+            "date_added": "13247980482741191",
+            "guid": "30455913-eb1b-423f-a391-4745facc5918",
+            "id": "48",
+            "name": "Python Virtual Environments",
+            "type": "url",
+            "url": "https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/"
+         }, {
+            "date_added": "13248034201986853",
+            "guid": "db862f86-13c3-4036-b6c5-4321c6bacf21",
+            "id": "49",
+            "name": "How to create an AI that chats like you on WhatsApp",
+            "type": "url",
+            "url": "https://thenextweb.com/neural/2020/10/24/how-to-create-an-ai-that-chats-like-you-on-whatsapp-syndication/amp/"
+         }, {
+            "date_added": "13248124919498247",
+            "guid": "d07d5edd-64c2-4fca-9b02-6cdf04964567",
+            "id": "50",
+            "name": "Python GUI examples (Tkinter Tutorial) - Like Geeks",
+            "type": "url",
+            "url": "https://likegeeks.com/python-gui-examples-tkinter-tutorial/"
+         }, {
+            "date_added": "13248404042717548",
+            "guid": "8a5d82f5-5a2c-4e04-beba-d6726d43a8e4",
+            "id": "51",
+            "name": "Traductor Binario | Traduce de binario a texto o de texto a binario fácilmente",
+            "type": "url",
+            "url": "https://www.traductorbinario.com/"
+         } ],
+         "date_added": "13249689369696694",
+         "date_modified": "13248404042717548",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgrWo9iXuV0AAAAAEgAaWFA0T25oMmMxdUJqRFRrTERRNDZpRGVTaStJQTM0V0xzeGo2b0FIMnhFZ2ZpZnNqejZyeWtqb05WZGhaa0tmVDUydytHenVTYTJFN1JUM0pHcHl4SklnPT0gASoYUXFxZHNKY09GTTBNYnorMERDK2FiQT09EqUBCDYSoAEKHDN3TkpWV25ZT2ZSQnlJUENhNUNMZmp3L3p1UT0SJGUzNTE3MzExLTM4NzgtNDg2Ni05Yzc1LTY2NDY2MjFkN2EwMRgAIAEoATABOI/z68vcLkCP8+vL3C5KHFpCY3dQZlM0MHBxTDNPWlBVTlVVTHI5blJyZz1aISIf///ZOERvbllVTGtRdm1IK2JBT0JmRTJORllCYjJJPWUAAAAAEqIBCDUSnQEKHDl6NGJSQkgxQ1hlR3J2bUFLL250am1kcnErdz0SJGE2YzU1MWNlLTQyNWQtNDJjMS1hYzM2LTQ5OTk4YzA3MDBkORgAIAMoAzACOOr86svcLkCP8+vL3C5KHHVsTy96WnRWMzlndWxOV3JoSFFPNUlpamo2MD1aHiIcSHdlVHpoL0ZxVHd0Mmh0dXd4T21aUlRKRU40PWVCuBPKEqMBCDMSngEKHENkZVRmSmRPMklsRzdCTmtBeC93ZDYxNHBqbz0SJDdlYzA1MTdmLWFjMTMtNGYwMC05MzZiLWQ5YTcwMzEwNjM3MxgAIAAoADACONeY0Y3XLkDXmNGN1y5KHFBZcFZWSXE0Y0tpYnoxekpteHh4dm1XeWpZST1aHyId/yt3d2dGL25Bc05aeTA5aFM1QnIrYnV6aU5GST1l3IYXLxKjAQgqEp4BChxoM0MvMVNmaExySHR0SjhGZmQ4QU1oVkRsSHc9EiQxMmQ5MGEzZi1lODQ4LTQ4NTAtOTc4ZS1iMWNlM2ZmN2ZiMDEYACAAKAAwAjiK4/e1zy5AiuP3tc8uShxPUS9FMXd1dHpzeGovbmNUMVAwK0RHejdUVjg9Wh8iHaNGZDJqZmxCNHN2V2lHLzRtcFB5NmY4S0NvRHM9ZfejyVwSowEIGRKeAQocKys5YVVrMEJZdEs4YkZzU1B4VW1HTnI2SnpFPRIkY2QxZmNmZjUtOTRiNS00NDI0LTgyMTgtMDQ1ZjMzODJhZTlhGAAgAigCMAQ4/c2ZvtcuQOjbzvLbLkocdFBkWDJad2UxU3VTcVZndkw5MEFlamhaRDRnPVofIh33eHljRnlOaTVTUWlxQitSL245QnVQSWxudXJZPWUPzDQUEqMBCDESngEKHHNqZXpIQW85bVc0WUVYNjd4WXRkWW4vZFlZZz0SJGE2YjBlMDkyLWY4MDAtNGRjMC05YTE2LWU0ZDM1M2IwNmUxOBgAIAAoADACOInzo93VLkCJ86Pd1S5KHDNELzM3WXVFOTAzd2hEeURkbWJJUWFoc3prbz1aHyId/VJOMTlnd2VucW0rVTVhU2Q4RmU3UjFiWUZsMD1lyCu16RKjAQgwEp4BChxFUHZiN21nUUVpR3dXbHJzTVduazc4VERXb1U9EiQxOGQ5NDNkMi0zYWZhLTRjMjktYTc3OC1mZjIzODAzMDZkNjUYACAAKAAwAjjMkdXD1S5AzJHVw9UuShxJY3h6aGMwSjNWZHhHYWE1c1pkaTBhMENab2s9Wh8iHftQMC9WTVdSVkJsQXBVK29heDcvNFlVRWdkL2s9ZQAAAAASowEIHBKeAQocYVd1L2NwWFBHU0JJZDNLcHdDdFZ4UkdHNVNFPRIkZmRkNTk1YjktOTFmOS00N2IzLWFkMzgtMGNhYWQ0OWU3MGRkGAAgACgAMAE4iJCFkdguQIiQhZHYLkocR3FnMWhaUnFvbS9sdzU3MHp4TEdzbG9WZTJvPVofIh3+a1JrVGRPMG00WG1hRmFDdGlwdEs4NlFnNXZFPWWJ3l9hEqMBCBsSngEKHGkvK2lwTEw4bE83S21UMFp0RUtuV0l5eHMvMD0SJDlkNDcwOWJmLTU5ZmMtNGU3YS04ODAwLWFmMzg3YWM4MDg0ZhgAIAIoAjACOPnDyo/YLkDp287y2y5KHDloQ3NOWkJ0c1ZTbVNPbXNiM1FHWXhvYU1Ecz1aHyId/VpveFZieHJjRityOGxsRjNhR3d3N1RleFlvYz1lsEfIHBKjAQgYEp4BChxKWHdDWlBMaXdsN1BqZElUd3hTWXUxMWFQVGM9EiRiNmEzNTRkZC1mYzU3LTQ1ZTMtYjhlYi0wZmIwOTExOTBjOTAYACACKAIwAziGs/G91y5A59vO8tsuShxhTUlVbUZTcXAwWUpKN0J6c0RFSmpablIvbGs9Wh8iHe5Xd0VNeUtiekRZUXBJTkluMlYwR0trb3BFVFk9ZQgMSi4SgwEIAhJ/Chx6RFZHcnJ0WkxkTSs0QlR5YmcrSENPcldneW89EiQ0MjU2YzdhZC1kYzI5LTQ5NjUtYTJiZS0wZGMyY2M3NGI4MzcYACAAKAAwATinl4Loyy5Ap5eC6MsuShw1dXN5L2NwZnBpMUV0b0JIRGdYSXMwcWI0ckE9WgBlAAAAABKiAQgrEp0BChxVWTlFMW50UWJDQ3doNWNFY1AwdDZNZmkxTWM9EiRlMTk1NGU1Ny03NDNlLTQ3YzktOTFjZi04NjdiMzY5Nzk3ZDgYACAAKAAwAziI9q6b0y5AiPaum9MuShxmS0MvMDZlNXgzNDNVVWhEclpyaDdoS2ZYdW89Wh4iHHpzR05iM3d2eGxmNklvMlBWVTNDUkpKZ3FoQT1lhEaNRRKjAQgyEp4BChxCVzFNUVl0cGxLck5sakdVMlJXclRJL2lNSzg9EiQ1MWVhZTNhOC1mMWIxLTQ5YzYtYmJjNS0xMTkzYWQ1ZTgxZGQYACAAKAAwAjiC7sSI1i5Agu7EiNYuShw3SlBGSXlEbUxCanlwNmRlQzhQUDA4b1Z6YlU9Wh8iHf5XTWdtOXBXYlpWZk9BT2c2eW1pN3NsQU9PWWc9ZT0f8iMSpAEIHhKfAQocVXQyZnpZYlBDVGFZOXhIMzdKL0VWa29SRHg0PRIkMjEyNWY0OTYtODBjNS00M2JiLTkyZmQtZTUxZDgzMGZhMWQ0GAAgACgAMAE4iJXMqNguQIiVzKjYLkocb1lpSUk4SHcwenBSZVRNdEhRU3I3ZmdheW4wPVogIh7/uVltQzUzMmVYejhnYXNaL1N2T3VTS0hDNldGdz1lCAxKLhKjAQgMEp4BChxraStPSnBnUkZDc1NhSkFORXVIQ20wbWwvMnc9EiRhNDFiOGM1NS1kMWY1LTRjNjMtODVkYy1hMjFlZjQzMjI2ZDYYACAAKAAwAjjF+uP20i5Axfrj9tIuShwyNVpWMEF1UTUwcjBBVXQxQmRDQlZlOS9CQkU9Wh8iHftFbWRxcTVWczNFYzB6MUlMUWR1QmlUVlAwZkU9Zeu2KNASowEICBKeAQocQmZEM2cxa2t0ODlCMjFIU0FyOEJ1dFMvankwPRIkMzMyZmFmY2UtNTgyNi00NTUyLWIzYWMtNjgxY2FkMDE1NjA4GAAgACgAMAI48YaF6MsuQPGGhejLLkocOTB5OFYxZEFDMDlLeW0xd3BSczlXa3lsSVlvPVofIh28VXFjRTJpajB4aXZnc01PaWk2am5Td1Fqc2pJPWVPpEk8EqMBCCwSngEKHGpFUEF4SnhvS1FLZFdVU2E0bXRFQ1Y5enlBMD0SJDk1ODFmM2M4LTAwMWMtNDFiYi04Y2VlLWUwYzlkODNkOWYxZBgAIAAoADACOJP0zJrULkCT9Mya1C5KHFVUNkxBNE1Bc0RwMkxUZExiSm5QVjZQWDlURT1aHyIdvUVzVGxaQlJpUGJmczBWV1FveXhoM1AxSEVaTT1lLFqXURKlAQgnEqABChxFZm5hYTg2RWRMTkVoVUs4NlBCbENCc0JYK1k9EiQ3MjY0NDg5Yy04ZjQzLTRmMzEtYjQzYy1jMjc0YTM0MjRmNTUYACAAKAAwATjks+/J2y5A5LPvydsuShwwTjNoekVkZXRTUVh2QmVwNTNaRGwvT3RZbDg9WiEiH///s0M4ckptWFhEM3J0VDFrRVFUcTJQWTFBS3RWMD1lAAAAABKiAQgGEp0BChxyL3ZnRG1xSjNpdmhtWVV0ODdHd244dTNFeUk9EiRiZWIwYzcwOC1kZTcwLTRmODYtYWQ3YS1iMTg4ZDM5ODc3MDIYACAAKAAwAjjwhoXoyy5A8IaF6MsuShx1d21aZkQ3YnQrLzhvbjllWGZEN1RMNDgyaXM9Wh4iHEdKWHZTdkRjSjllTVVVMWxXc09CNGVmZ0o3OD1lAAAAABKjAQgtEp4BChw5VjNuQkdGRGRXcHhhN2NDeGMwNmRDMkdub3c9EiQyM2Q2NWM1MC04ZGQ2LTQyYWMtYWQyZS05Mjg2ZTY0M2JlNDcYACAAKAAwAjiw+9ax1C5AsPvWsdQuShw4a3h6NHBldWxFeDUxSXJVMWdGajdrRnJTb0k9Wh8iHd5XK2lqa1AxVGdLNVhINXdCSS9jZCtTNVJJRFk9Zc2tqt0SowEIJhKeAQocWkYrNGdXcUx0SVNKNFFJTjNSTEx1Q3FKV2dVPRIkYjIxOWY2NzgtYzAwNy00MTVlLThmMzktNmZkYzkxNDI3NzdmGAAgACgAMAE4yP3u2douQMj97tnaLkocTmRJVjBrbEV1bDJod1QwblkrdWJnRUZPdDdNPVofIh3aVkIyZi9lcGN6YnhvTFo4Z0hERHNVOUhORmlvPWUAAAAAEqIBCCQSnQEKHDI0bnRxenFGemlpUTkveE80YWYzS3hRbGcwVT0SJGU2MGIxZDM3LTEzNmQtNDRjYS05MjhkLTQ3ZGNiNDI0ODA4MxgAIAAoADACON2xv87aLkDdsb/O2i5KHCtCRXBKKzZjYjlJOTNEcnRhTHZRRmg2VVZuMD1aHiIcazZCTDN6L2poUjBvQjBRd0lMOXBmeTdvWGVNPWU78Ys3EqQBCCESnwEKHE81YnU2SkFRU1prR28zc2Y4UWpUV21yb0FkYz0SJDJkYzRkYmI2LWJkMmItNDRiZi04NWI2LTMwYzE1MjkzNjhmYhgAIAAoADABOOzolbLZLkDs6JWy2S5KHENtQWJ3QlMvSEhWdXdnSzFDdDlreXJCQ1hETT1aICIe//dSMzVRaU82Y3pFa3NSclZSdDRwQ0RLaWUwaDQ9ZQAAAAASowEIDhKeAQocWC96Q1Y5d0JKL2x5Zm9iRzVrdWJ3ckRMMHBjPRIkYTk0ZDcyZmMtMTMxNy00MDk1LWFjYTQtY2QxMmY3YmM4NzRiGAAgACgAMAI44KfzjNMuQOCn84zTLkocVHRiMEJGRnJGc3pxVjU0aUxVOG9QL2laUHhBPVofIh3+YUJCK0VvNWtVWUtrOXd3ZEptamtvdURYa2d3PWU6RcjVEqMBCB0SngEKHGlnTjBERjZLUkt2TFpKcENwMWRVKzBNZTdWUT0SJDZiYzdhNGIzLTg4OGUtNGJjMC04MWU2LWI4NDA5NDI3YTViNBgAIAAoADABOLWh2afYLkC1odmn2C5KHHR1SUxLSG5KQnlVK1QwU2tURkFoUkxpYzRDaz1aHyId/3JydUZTWEcvYlViQmNOKzlyeExSQVhjbHlrbz1lCAxKLhKjAQguEp4BChx4NFg1L3dzemFCWThoVG95ZVE2NDhUdFpkNWc9EiQwOTViOTViMi00ZmNkLTQzNTMtYjlkZS1kYjBhNDE2NmFiNTAYACAAKAAwAjjUjMnb1C5A1IzJ29QuShxtRjJiTGxRdUsrUFh3WTA0RzBpQmlpVk9ablE9Wh8iHe9NWjFPYmRZTkJ3S1hvc3VPZnNDVUdlWjA1bUU9ZWLLVwQSpQEIIBKgAQocaFN3MEFqdS9tUkgyOVlxSmFOVXlvdC9ucDFVPRIkM2I1ODQyYmEtMmFkMC00ZjNhLTgzYmYtYTM1YzMzNTdiNzgwGAAgEygTMOQOOPnJpazZLkCc/5qo3C5KHFAvOFF2UGhyNEtrMjF3RjdVZEM0WTdBWEEyOD1aICIe/+5JZmhya25IalRnOVNQem84MXdaSTIzbXRTcDA9ZVs3syQSpAEIHxKfAQocZjRyZC91MVRsR3AwZ29WZkp2cmpEekZ3Z3lnPRIkZWMwYzhiMDQtNjA1MC00MTgzLWJkYzYtMzkyZGNmNTU1YzQzGAAgACgAMAE46sy11tguQOrMtdbYLkocRHZJeXE4ZHYrSkVmdm5SaGJBcXFidDNsVjh3PVogIh7/3FlVcERDRDFmUEp6Nk5IbStrQnFsN2FxK1Bwcz1lW07PRBKjAQgaEp4BChw4WnpKVmY3QWF2eVpsbTE0OUV1QW5GVWtJWlE9EiQyYzNkMzEwYy1lZmYwLTQ3NzEtYjJlYS01NTU1OWRjZTgzNTYYACACKAIwAzjx4K/l1y5A6NvO8tsuShxFUHV2STA3SFhDTUxNamp1M2Z4dUVQbHNBVkU9Wh8iHftlYmx4RTJRQXNDOERtekl5SndoKzVCYkIrT1k9ZSYLJBcSogEIBRKdAQocRHpJSlVWRHgvNlBrblVmODZZL1V0NUZBdTJRPRIkZjkyMWYzZGYtMDZjYi00NDg0LWFjOTEtNTg4MTYwZTY2NDRmGAAgACgAMAI48IaF6MsuQPCGhejLLkocRk8vL29UdjdwLytlTmdscjNHMG1EQk14MmkwPVoeIhxsMHZNTXdLdnMwSkpQRXNqUzk5Z2EwNHZXU0k9ZQAAAAASogEIFRKdAQocK2NUL3QzMHJ2R0g4OVpMMUt0Nmh0RWJOeHpzPRIkMDExMmVjMzMtMGU1MC00MWVhLTllOTQtNTk4ODU0OWM3MDAwGAAgAigCMAM4g/TcqtcuQOXbzvLbLkocWEppWXlaOTZocUJDc3RrRUZ1ODFBeG5jbnNzPVoeIhxySmVNWUN6SzlOTDZOVERFbkl5VmgvSkdTY0U9ZTTR6GESowEIExKeAQocazdzRGlPM1o2Y0RBMGVHdDJBc1hjVHpZVzVJPRIkNjE1MTRkOGMtNjI3Ni00ZmRmLTkwZDYtYzk0M2VkMDFhNjFmGAAgACgAMAI4k/iMjc8uQJP4jI3PLkocV3pMZ2JRUi9mWmkxRGRGT3dSNlF1OG54NXgwPVofIh3VVHR5cWJDZi9xemQraHV4VVRVUlhnY25PQUkwPWVepHZQEqIBCBESnQEKHDkxZ09HdTdXK2Z6UHhjTDk2Ulp6L0pacWJkUT0SJDk2NzJiNzgzLTgyYTUtNGNjYy05Zjg3LTYwZDNhMGI2MDZlZRgAIAAoADACOLKf2+fNLkCyn9vnzS5KHEtmNFA3SkwxL21MSmpTNnJxd0VaTXB6VHQ4UT1aHiIcV1JPZ1hWRUJRTTk1RzA3dXJ0TnlGQ1BnTWhzPWWAsCJ2EqMBCAoSngEKHDdaVGJWc1NvVml6dWgzRFNZRmRzUTNvRVU3TT0SJGFmNjg3YWY2LWFkYjAtNGYxZS1iMjFmLTAzMDZjOGE3MjhmZhgAIAAoADACOPGGhejLLkDxhoXoyy5KHFltRUNMVnRyYVlNOGZiTytLWCtRWGNnb00rMD1aHyId70s2YlVkWmRjN0s0YnJaVXI3VnBBaVJhL3Fpdz1lAAAAABKjAQgWEp4BChx3RDcvRW94S2xjN1Q2TUVqaE9RS3lWWTJUN1k9EiQ2ZGFkZWNlYi02OWZmLTQwNGEtOGM1NC1hZDkzOWJhMjUyNmEYACACKAIwAzjH9+Gq1y5A5tvO8tsuShxEUk9WRUZXSWhWa0ROakZYRm82TDFmZkc1Ylk9Wh8iHblhUHJERXB0TDJCdGlTUjVFcHFxSDZGcEFFYnc9ZZO+bEkSowEIFxKeAQocV2drL0FjaEVYd3JLdWJ4bk9uLzhmS2MySnQ0PRIkMjc4ZTdiNTAtOGRkOS00MjA5LThkMTYtNTU0ZGIxNjZmYjIxGAAgAigCMAQ4svnkqtcuQObbzvLbLkocNUtqK1ZzdlFza2wyWUpuTVpzTXVHQkFhUmUwPVofIh3ca2k1RHZrZDRrZCtFVm9QY3RLRmFyZ0hObTRNPWUjemJDEqQBCCMSnwEKHGIvVGtHUVpvRzhtUTBGMlZYVG9BQXcxbU5QRT0SJDNkYWYwMjIzLWUyMjItNDJiOS04NTljLWI4NDZiNGI3OTAxORgAIAAoADABON6jwM7aLkDeo8DO2i5KHFcvRHYwRU9yNHpZZDJXWVpHMko1MHBkaEVEZz1aICIe//4zWjJKYWhRMjdsOXVYK09LQzg5UmYxNW1rYnc9ZQAAAAASogEIFBKdAQoceUdFcnpVZzVNTzlZZkRmampZQmU4d0V3RTNJPRIkYmE1YWE5ZTUtMzVjNS00NTNjLThkMWYtMDBlZmIyZWVkZWUzGAAgAigCMAQ4uJTbqtcuQOTbzvLbLkocbWZqYWlreHg3aWd2VVhaaHMrUTVMQjhqRkVRPVoeIhxtZDc2U2paM3NQcHNhVzNuc3MvcVhubURjbjg9ZV9ng4kSgwEIARJ/ChwvRUtMYVVVeU1kYktFazFCYTJVaW55RG5mN0k9EiQ4NTZlYmVlNi1hNGQ5LTRmNzgtOTYwZS1lNGMzYWQ4MWIyMmIYACAAKAAwATinl4Loyy5Ap5eC6MsuShxVK0dHSXRaRURwWnNJU2xPVWFJVHVJTGRNbkk9WgBlAAAAABKiAQgpEp0BChwvazNQY3VZcVo0QTlEUDlIaU9PUFZjcE5WdVk9EiQxNmIwM2I0My1lZDQ1LTRlMmQtYjFiOC03NThiMTdjOTkxNDEYACAAKAAwAziu/OSmzy5Arvzkps8uShxVZjQvNU8vdVdRaElJK3puRTlCSHBubkVpd1E9Wh4iHEdFbDdmZjVzc3FCcGZ2Z2tBUWVGYXFjcFA3RT1lI/thaBKDAQgDEn8KHHk1V0UyN3VJNnZYL0RlSVNISnpuak1xdVdXcz0SJDZiMzE3NzBjLWZiOTctNDBjOS04M2U5LWNhOTlhOWRmZDcyMRgAIAAoADABOKeXgujLLkCnl4Loyy5KHDc5bCtMUkVVcGlhRXZERCtHNDNjcFhTdHdCYz1aAGUAAAAAEqIBCCgSnQEKHEFrdUlwZ21XK3ZIMHdrY2JsalF5dUhheHR6cz0SJGVmZWJkODcwLTBkNWMtNDNlZS05OTY1LWMwYWE5M2JmZDUwOBgAIAAoADABOPL+7cnbLkDy/u3J2y5KHGFiMDFyTUJrazBFT2Fick05ZXFXeFcxcVo0MD1aHiIcZnV4WFZlcE9iSlNpNisvRER0b1E5ZjNZa3lJPWV9/hvwEqQBCBASnwEKHFovN282YU5VcDVkazhjT2d0ZEs4Ti9PUXF3VT0SJDdmMGE5MjBkLTZiZTEtNDc0NC1hYTY2LWE2ZTk5YzBmZDVmMhgAIAAoADACONygmJrTLkDcoJia0y5KHHpMbmhCcmdWR2s1UGg0NDA1OGFKaFN2ZkpCVT1aICIe/6Q4dCtVbytDMDJsY2tReklXbkplS3l2aVBDZU09ZQgMSi4SowEIJRKeAQocYk9FZDJUZnV0VEtQZ1E1cFVsMkd5STNMektBPRIkY2JjYWNlYTktNDZkMS00N2NmLTk3OGUtMDc3YTRhZTQ1Njc5GAAgACgAMAE41sLq2douQNbC6tnaLkocTmoydDNsRW1VaFF3bXVPd0NRbTZjSkRCRmdjPVofIh21Zml0eXptUEEwQmNDVjF0aDUvNWY0dlRpN01vPWUIDEouEqMBCAsSngEKHDBLSVVKU0lvWkVzQVhZN0djZlliMWtpUStkND0SJDEzMjQ4YjA3LTA1ZjktNGNkYy04MzVjLTU3ODQ2YTg5MDYzMRgAIAAoADACOLLT6vTSLkCy0+r00i5KHFdtaDJxcGRwdXZFbmxLZFdPTVQrNU9tYy9iND1aHyId93BGSURCdG1LK2l5WjRoYm1CeGVBOGZqblM0ST1lC6SpGxKjAQgNEp4BChxYcW9wM2xZeGJxNmR1T1J0UlprUkl2UFdHS289EiRhYjRjYzMxZi0yYTMxLTQ2ZTUtOGFkYS0wZjMzNjMwY2E4MzcYACAAKAAwAjjT0KH80i5A09Ch/NIuShxiWUVQV3FQTmFuOW04bFdJR2J3b2NzTGdkWHM9Wh8iHf1UOWpDbHN1cVpVWTNadTRDeWpwMFY4dEFBWDg9ZfyviDUSogEIBxKdAQocUDhDdWRzK0ZkaGN6aE9MRHZ1dXZJcWZJVVBVPRIkYmI0MjE4N2MtNzY1MC00NmRlLTg4MTItZGVkY2Q2OWRiNzI5GAAgACgAMAI48IaF6MsuQPCGhejLLkocQXNSNVZUUnIvL1pnUTNaNkxrMHZjR3hMSkRVPVoeIhx4RmR0cXpMbHVyMUdKaVJhTGZZNzIra0J6dFk9ZU+kSTwSowEIEhKeAQocK2tyS0JvanJCdVJWWW9OQ2dQdFhtZnQ2SkJnPRIkM2ZjOGY2YTktOTljMS00OTNlLTgzZDktYjI3Y2JkODMxMzgxGAAgACgAMAI4vrmgjM8uQL65oIzPLkoccXAxaTE1WGpqU1IzVGVlWFB2ZFBXemlKeU4wPVofIh2rN3lEQXNJUWhIUW9sa3lsOTFmQS9HM1U2THlRPWVepHZQEqMBCAkSngEKHHNEWFNJYktZcTNpR01OS2wzWnhXNS9NK0V1MD0SJDcwZGQ3MTQ5LWY2MTQtNDVjYi04MThiLTE3MThhOGZhM2RiYRgAIAAoADACOPGGhejLLkDxhoXoyy5KHE9lY0l5cWQ3ZVBFalNzZ0U4b1l0UzBsdGxVZz1aHyId3jAwTGpxZVBySXlYRVgyelhBRGdHcHlSL3BhQT1lAAAAABKjAQgvEp4BChxsSHhSdHp3cURBRnhZYTU5d2daME9xanRHRXc9EiRmOGYzNDI2OC1iMzIxLTQ5NTQtYWY4NS1lN2JhYWJkZDRiYTkYACAAKAAwAzjcz6291S5A3M+tvdUuShxVY3JoSlFXNURNVmVzU20wZ2NyeEt0YmdCb1E9Wh8iHfc5M0lsTzhDb2JiZGNhSVA1dTF1VWo0SnJSWXc9ZQgMSi4SowEIDxKeAQocdWYrQTVYQW5tSFJNTU5xajRId0s3ZDgzOGV3PRIkMzY3NmYzMjEtMThhNi00MzRkLTljNzYtYTI3MDg4YmYwNjcwGAAgACgAMAI4j4DRj9MuQI+A0Y/TLkocamQ5TERuaGNBOWluYjAzSkFxdE5XNTk0MWY4PVofIh3/SGZZc1NaaGl4TFp1VVIxZ2lobE1aYkNPcS9zPWU1BFxnEqQBCCISnwEKHGZhVnlOSXNINTZNYzl0VUZvelB0TmpTMmFPRT0SJDU4Y2FlNDg3LTYzNTQtNDQ5ZS1iMjc2LTQyMTUyMjQwNDczYxgAIAAoADABOLGM88naLkCxjPPJ2i5KHGRPeTIyLzIweWwxR3RPQkVsOXA4R05HNTB3WT1aICIe//tRN0xFTzJyZVlpUU96Z2hZK1BwSnhiOU1zZVE9ZQgMSi4YACDis+zL3C4=",
+   "version": 1
+}

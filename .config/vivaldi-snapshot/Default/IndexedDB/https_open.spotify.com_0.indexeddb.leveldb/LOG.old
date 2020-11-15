@@ -1,0 +1,5 @@
+2020/11/13-09:07:20.838 156d3 Reusing MANIFEST /home/daniel/.config/vivaldi-snapshot/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/13-09:07:56.497 156d1 Level-0 table #5: started
+2020/11/13-09:07:56.530 156d1 Level-0 table #5: 8360 bytes OK
+2020/11/13-09:07:56.562 156d1 Delete type=0 #3
+2020/11/13-09:07:56.562 156d1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

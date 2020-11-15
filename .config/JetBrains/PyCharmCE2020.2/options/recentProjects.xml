@@ -1,0 +1,39 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/HyperNews Portal">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1kHwsRKEe8P3P7qzdWWPsDAI5yL">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-202.7319.64" />
+              <option name="buildTimestamp" value="1602369238844" />
+              <frame x="33" y="40" width="1346" height="708" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1605383764308" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/github/game-of-life">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1kIMvWuxKFhxZDaUd7FQh2dRfJa">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-202.7319.64" />
+              <option name="buildTimestamp" value="1602369206062" />
+              <frame x="-2" y="20" width="1370" height="750" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1605397393800" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/github" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/github/game-of-life" />
+        <option value="$USER_HOME$/PycharmProjects/HyperNews Portal" />
+      </list>
+    </option>
+  </component>
+</application>

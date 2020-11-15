@@ -1,0 +1,745 @@
+{
+   "ACCOUNT": {
+      "message": "Аккаунт"
+   },
+   "ACCOUNT_DISABLED": {
+      "message": "Аккаунт деактивирован"
+   },
+   "ACCOUNT_NOT_FOUND": {
+      "message": "Аккаунт не найден"
+   },
+   "ACCOUNT_TYPE": {
+      "message": "Тип аккаунта"
+   },
+   "ACHIEVEMENT_MULTI1_SECONDARY": {
+      "message": "2 альтер-эго на сайте. Удобнее, чем в режиме инкогнито, не так ли?"
+   },
+   "ACHIEVEMENT_MULTI1_TEXT": {
+      "message": "Мульти-аккаунт"
+   },
+   "ACHIEVEMENT_MULTI1_TWEET": {
+      "message": "Более чем 2 альтер-эго на сайте. Удобнее, чем режим инкогнито, не так ли? через @session_box"
+   },
+   "ACHIEVEMENT_MULTI2_SECONDARY": {
+      "message": "5 альтер-эго на сайте. Это нечто!"
+   },
+   "ACHIEVEMENT_MULTI2_TEXT": {
+      "message": "Расширенный многопользовательский аккаунт"
+   },
+   "ACHIEVEMENT_MULTI2_TWEET": {
+      "message": "Более чем 5 альтер-эго на сайте с @session_box. Это что-то!"
+   },
+   "ACHIEVEMENT_MULTI3_SECONDARY": {
+      "message": "10 альтер-эго на сайте. Должно быть, вы что-то скрываете!"
+   },
+   "ACHIEVEMENT_MULTI3_TEXT": {
+      "message": "Mr. Alterego"
+   },
+   "ACHIEVEMENT_MULTI3_TWEET": {
+      "message": "10 альтер-эго на сайте. Должно быть, вы что-то скрываете! через @session_box"
+   },
+   "ACHIEVEMENT_USAGE1_SECONDARY": {
+      "message": "Начинаю управлять вашими сессиями..."
+   },
+   "ACHIEVEMENT_USAGE1_TEXT": {
+      "message": "Новый пользователь"
+   },
+   "ACHIEVEMENT_USAGE1_TWEET": {
+      "message": "Начинаю управлять своими сессиями... через @session_box"
+   },
+   "ACHIEVEMENT_USAGE2_SECONDARY": {
+      "message": "Cайт открывался 50 раз. Управление сессиями освоено"
+   },
+   "ACHIEVEMENT_USAGE2_TEXT": {
+      "message": "Продвинутый пользователь"
+   },
+   "ACHIEVEMENT_USAGE2_TWEET": {
+      "message": "Cайт открывался 50 раз через @session_box"
+   },
+   "ACHIEVEMENT_USAGE3_SECONDARY": {
+      "message": "100 сессий открыты для одного приложения"
+   },
+   "ACHIEVEMENT_USAGE3_TEXT": {
+      "message": "Mr. Session"
+   },
+   "ACHIEVEMENT_USAGE3_TWEET": {
+      "message": "Mr. Session. Открыто 100 сеансов для одного приложения через @session_box"
+   },
+   "ADD": {
+      "message": "Добавить"
+   },
+   "ADD_NEW_URL_SITE_TOOLTIP": {
+      "message": "Добавить новый URL для этой сессии"
+   },
+   "ADD_WEBSITE": {
+      "message": "Добавить веб-сайт"
+   },
+   "AUTO_START": {
+      "message": "Запуск браузера"
+   },
+   "BOOKMARK_CREATED": {
+      "message": "Закладка создана"
+   },
+   "BUG_REPORT": {
+      "message": "Отчет об ошибке"
+   },
+   "BULK_DELETE": {
+      "message": "Удалить выбранные"
+   },
+   "BULK_MOVE": {
+      "message": "Переместить в группу"
+   },
+   "BULK_OPEN": {
+      "message": "Открыть выбранные"
+   },
+   "CANCEL": {
+      "description": "Button text",
+      "message": "Отмена"
+   },
+   "CANNOT_RECOVER": {
+      "message": "Не удается восстановить пароль"
+   },
+   "CANNOT_RECOVER_PASSWORD": {
+      "message": "Не удается восстановить пароль"
+   },
+   "CANNOT_SYNC_IN_GUEST_MODE": {
+      "message": "Синхронизация между устройствами недоступна в гостевом режиме"
+   },
+   "CANT_CREATE_HERE": {
+      "message": "Вы не можете создать сессию здесь"
+   },
+   "CHANGE": {
+      "message": "Изменить"
+   },
+   "CHANGE_PASSWORD": {
+      "message": "Изменить пароль"
+   },
+   "CLEAR_AUTO_START_SETTINGS": {
+      "message": "Сброс всех автоматически запускаемых сессий"
+   },
+   "CLEAR_AUTO_START_SETTINGS_SUCCESS": {
+      "message": "Отключение открытия при запуске браузера для всех сессий"
+   },
+   "CLEAR_PROXY_SETTINGS": {
+      "message": "Сброс всех прокси-настроек сессии"
+   },
+   "CLEAR_PROXY_SETTINGS_SUCCESS": {
+      "message": "Все прокси сессий отключены"
+   },
+   "CLEAR_RECENT_LIST": {
+      "message": "Очистить последние сеансы"
+   },
+   "CLICK_FOR_MORE_INFO": {
+      "message": "Нажмите для получения дополнительной информации."
+   },
+   "CLOSE": {
+      "message": "Закрыть"
+   },
+   "CLOSE_SEARCH": {
+      "message": "Закрыть поиск"
+   },
+   "COMMAND": {
+      "message": "Команда"
+   },
+   "CONTINUE": {
+      "description": "Button text",
+      "message": "Далее"
+   },
+   "CREATE": {
+      "description": "Button text",
+      "message": "Создать"
+   },
+   "CREATE_ACCOUNT": {
+      "description": "Create account button text",
+      "message": "Регистрация"
+   },
+   "CREATE_BOOKMARK": {
+      "description": "Button text",
+      "message": "Добавить URL к сессии"
+   },
+   "CREATE_BOOKMARK_MENU": {
+      "message": "Создать закладку"
+   },
+   "CREATE_FIRST_PART1": {
+      "description": "First part of the phrase: 'Click on the (+) button and create your first session!' The phrase is divided with an image, thats why it is separated into two parts.",
+      "message": "Нажмите на кнопку"
+   },
+   "CREATE_FIRST_PART2": {
+      "description": "Second part of the phrase: 'Click on the (+) button and create your first session!' The phrase is divided with an image, thats why it is separated into two parts.",
+      "message": "и создайте вашу первую сессию!"
+   },
+   "CREATE_LAUNCH_URL": {
+      "message": "Создать прямой URL"
+   },
+   "CREATE_NEW_ACCOUNT": {
+      "description": "Create a new account button text",
+      "message": "Создать новый аккаунт"
+   },
+   "CURRENT_SITE_SESSIONS": {
+      "message": "Сессии для текущего сайта"
+   },
+   "DEFAULT": {
+      "description": "Default site",
+      "message": "Сайт по умолчанию"
+   },
+   "DELETE": {
+      "description": "Button text",
+      "message": "Удалить"
+   },
+   "DELETE_ALL": {
+      "message": "Удалить все"
+   },
+   "DELETE_CONFIRMATION_GROUP": {
+      "message": "Вы действительно хотите удалить все сеансы в этой группе?"
+   },
+   "DELETE_CONFIRMATION_SESSION": {
+      "message": "Вы уверены, что хотите удалить этот сеанс и связанные с ним URL-адреса?"
+   },
+   "DELETE_CONFIRMATION_SITE": {
+      "message": "Вы действительно хотите удалить все сеансы для этого сайта?"
+   },
+   "DELETE_SELECTED": {
+      "message": "Удалить выбранное"
+   },
+   "DID_YOU_KNOW": {
+      "message": "Знали ли вы?"
+   },
+   "DISMISS": {
+      "message": "Отклонить"
+   },
+   "DONT_SHOW_AGAIN": {
+      "description": "Don't show again",
+      "message": "Не показывать больше"
+   },
+   "EDIT_SESSION": {
+      "description": "Session options",
+      "message": "Настройки сессии"
+   },
+   "EMAIL": {
+      "description": "Email address field label",
+      "message": "Email"
+   },
+   "EMAIL_TAKEN": {
+      "description": "Email address already in use error message",
+      "message": "Адрес электронной почты уже используется"
+   },
+   "ENTER_RECOVERY_CODE": {
+      "message": "Мы отправили код восстановления на {{email}}. Пожалуйста, проверьте свою электронную почту и введите код восстановления."
+   },
+   "ENTER_VALID_EMAIL": {
+      "description": "Please enter valid email error message",
+      "message": "Пожалуйста, введите действительный адрес электронной почты"
+   },
+   "ENTER_YOUR_CREDENTIALS_TO_START": {
+      "description": "Inform user he has to sign in to access the service",
+      "message": "Пожалуйста, войдите, чтобы защитить и синхронизировать ваши данные."
+   },
+   "FAVORITES": {
+      "message": "Избранное"
+   },
+   "FOLDER": {
+      "message": "Папка"
+   },
+   "FOLLOW_US_ON_TWITTER": {
+      "message": "Следите за нами на Twitter"
+   },
+   "FORGOT_PASSWORD": {
+      "message": "Забыли пароль?"
+   },
+   "FORMAT_ERROR": {
+      "message": "ошибка в формате"
+   },
+   "FREE_LIMIT_REACHED": {
+      "message": "Вы достигли лимита бесплатных синхронизированных сессий"
+   },
+   "FREE_LIMIT_REACHED_HARD": {
+      "message": "Обновитесь, чтобы получить неограниченный доступ к синхронизации."
+   },
+   "FREE_LIMIT_WARNING": {
+      "message": "Синхронизация между устройствами отключена для этой сессии, так как вы достигли лимита базового плана."
+   },
+   "FREE_LIMIT_WARNING_LINK": {
+      "message": "Обновите подписку, чтобы получить неограниченный доступ к синхронизации."
+   },
+   "GOT_IT": {
+      "description": "Got it!",
+      "message": "Понятно!"
+   },
+   "GROUP": {
+      "message": "Группа"
+   },
+   "GUEST_CREATE_ACCOUNT": {
+      "message": "Создайте учетную запись, чтобы синхронизировать ваши данные."
+   },
+   "GUEST_MODE_NOTICE": {
+      "message": "В ГОСТЕВОМ РЕЖИМЕ ваши данные не синхронизируются. Вы потеряете ваши сессии при выходе из системы или перезапуске браузера."
+   },
+   "GUEST_MODE_WARNING": {
+      "message": "Синхронизация и некоторые другие возможности недоступны в гостевом режиме. Вы сможете использовать локальные, а также синхронизированные сессии, если @создадите аккаунт@."
+   },
+   "HELLO_STRANGER": {
+      "description": "Welcomes unauthorized user",
+      "message": "Привет, незнакомец!"
+   },
+   "HINT_ERROR": {
+      "message": "Введите подсказку, а не текущий пароль."
+   },
+   "HOME": {
+      "message": "Главная"
+   },
+   "ICON": {
+      "message": "Значок"
+   },
+   "INVALID_CREDENTIALS": {
+      "description": "Error message (user given wrong username or password)",
+      "message": "Неверные учетные данные"
+   },
+   "I_ACCEPT_TERMS": {
+      "message": "Я принимаю @пользовательское соглашение@ и @политику конфиденциальности@"
+   },
+   "KEYBOARD_SHORTCUT": {
+      "message": "Быстрые клавиши"
+   },
+   "KNOWLEDGE_BASE": {
+      "message": "База знаний"
+   },
+   "LAUNCH_URL_INFO": {
+      "message": "Вы можете запустить эту сессию с помощью данного URL:"
+   },
+   "LOCAL_SESSION": {
+      "message": "Выключено"
+   },
+   "LOCAL_SESSION_SECONDARY": {
+      "message": "Эта сессия будет доступна только на данном устройстве"
+   },
+   "LOG_IN": {
+      "description": "Log in button text",
+      "message": "Войти"
+   },
+   "MARKETING_BOOKMARKS": {
+      "message": "Добавляйте сессии на панель закладок и создавайте URL для запуска!"
+   },
+   "MARKETING_BULK": {
+      "message": "Удаляйте, перемещайте и открывайте несколько сессий одновременно."
+   },
+   "MARKETING_ICONS": {
+      "message": "Добавьте индивидуальности вашим сессиям с помощью значков!"
+   },
+   "MARKETING_PROXY": {
+      "message": "Установите разные прокси для каждой вкладки!"
+   },
+   "MAXIMUM_CHARACTERS": {
+      "message": "Максимум {{num}} символов"
+   },
+   "MINIMUM_CHARACTERS": {
+      "description": "Error message. {{num}} is replaced with actual number",
+      "message": "Минимум {{num}} символов"
+   },
+   "MORE_INFO": {
+      "description": "More info",
+      "message": "Подробнее"
+   },
+   "MORE_INFO_LINE1": {
+      "message": "Теперь вы можете войти на {{site}} с любой вашей учетной записью, а также использовать его независимо от других вкладок. Закрыв эту вкладку, вы можете возобновить эту сессию в любое время из меню SessionBox."
+   },
+   "MORE_INFO_LINE2": {
+      "message": "Имя сеанса и цвет назначаются автоматически. Вы можете изменить их из меню SessionBox с помощью трех точек."
+   },
+   "MORE_OPTIONS": {
+      "message": "Больше опций"
+   },
+   "NAME": {
+      "description": "Field label (session's name)",
+      "message": "Имя"
+   },
+   "NAVIGATE_TO_WEBSITE": {
+      "message": "Перейдите на сайт и откройте это меню еще раз."
+   },
+   "NETWORK_ERROR": {
+      "description": "Error message (internet is not connected)",
+      "message": "Ошибка сети"
+   },
+   "NEW_PASSWORD": {
+      "message": "Новый пароль"
+   },
+   "NEW_SESSION": {
+      "description": "New session",
+      "message": "Новая сессия"
+   },
+   "NEW_SESSION_COMMAND": {
+      "message": "Новая сессия"
+   },
+   "NEW_TEMPORARY_SESSION_COMMAND": {
+      "message": "Новая временная сессия"
+   },
+   "NOTIFICATIONS": {
+      "message": "Уведомления"
+   },
+   "NOT_AVAILABLE_IN_GUEST_MODE": {
+      "message": "Недоступно в гостевом режиме"
+   },
+   "NO_SESSIONS_YET": {
+      "description": "{{site}} is a placeholder, it will be replaced with a website name",
+      "message": "Сессий для {{site}} еще нет"
+   },
+   "OLD_PASSWORD": {
+      "message": "Старый пароль"
+   },
+   "OPEN_ALL_SITE": {
+      "description": "Open all site",
+      "message": "Открыть весь сайт"
+   },
+   "OPEN_IN_EXISTING_SESSION_CONTEXT": {
+      "message": "Добавить к существующей сессии"
+   },
+   "OPEN_IN_NEW_SESSION_CONTEXT": {
+      "message": "Открыть в новой сессии"
+   },
+   "OPEN_IN_NEW_TEMPORARY_SESSION_CONTEXT": {
+      "message": "Открыть во временной сессии"
+   },
+   "OPEN_ON_START": {
+      "message": "Открыть эту сессию при запуске браузера"
+   },
+   "OPEN_ON_START_NOTICE": {
+      "message": "ПРИМЕЧАНИЕ: Вам необходимо включить функцию \"Оставаться в системе\" во время входа, чтобы эта возможность работала. Эта возможность не работает в ГОСТЕВОМ РЕЖИМЕ."
+   },
+   "OPEN_POPUP_COMMAND": {
+      "message": "Открыть меню SessionBox"
+   },
+   "OR_SIGN_IN": {
+      "description": "Continue the registration phrase 'Create account or sign in'",
+      "message": "или войдите в систему"
+   },
+   "OTHER": {
+      "description": "Other",
+      "message": "Другие"
+   },
+   "OTHER_SESSIONS": {
+      "message": "Другие сессии"
+   },
+   "PASSWORD": {
+      "description": "Password field label",
+      "message": "Пароль"
+   },
+   "PASSWORD_AGAIN": {
+      "description": "Password again field label",
+      "message": "Пароль еще раз"
+   },
+   "PASSWORD_CHANGED": {
+      "message": "Пароль изменен!"
+   },
+   "PASSWORD_CHANGE_WARNING": {
+      "message": "Если вы используете SessionBox в других браузерах, мы настоятельно рекомендуем выйти из системы в этих браузерах и снова войти, используя новый пароль."
+   },
+   "PASSWORD_HINT": {
+      "message": "Подсказка пароля"
+   },
+   "PASSWORD_HINT_LABEL": {
+      "message": "Подсказка пароля (необязательно)"
+   },
+   "PASSWORD_MISMATCH": {
+      "description": "Error message",
+      "message": "Пароли не совпадают"
+   },
+   "PASSWORD_NOTICE": {
+      "description": "Title of dialog where we notify the user, if he forgets his password we can't recover it",
+      "message": "Уведомление о пароле"
+   },
+   "PASSWORD_NOTICE_LINE1": {
+      "description": "Notice text line 1",
+      "message": "SessionBox использует пароль для защиты ваших данных. Для обеспечения вашей безопасности пароль никогда не хранится на вашем компьютере. Поэтому мы не сможем восстановить пароль, если вы его забудете."
+   },
+   "PASSWORD_NOTICE_LINE2": {
+      "description": "Notice text line 2",
+      "message": "Чтобы подтвердить ваш пароль, введите его еще раз."
+   },
+   "PASSWORD_RECOVERY": {
+      "message": "Восстановление пароля"
+   },
+   "PASSWORD_TOO_WEAK": {
+      "message": "Слишком слабый пароль"
+   },
+   "PICK_COLOR": {
+      "description": "Color chooser label",
+      "message": "Выберите цвет"
+   },
+   "PLEASE_WAIT": {
+      "message": "Пожалуйста, подождите..."
+   },
+   "PROMO_SHORT": {
+      "description": "Promo text for the extension",
+      "message": "Использовать сайты несколькими пользователями одновременно теперь можно легко. Создавайте независимые вкладки одним нажатием кнопки."
+   },
+   "PROXY": {
+      "message": "Прокси (экспериментальный)"
+   },
+   "PROXY_ADDRESS": {
+      "message": "Адрес"
+   },
+   "PROXY_PORT": {
+      "message": "Порт"
+   },
+   "PROXY_SETTINGS_UPDATED": {
+      "message": "Настройки прокси обновлены"
+   },
+   "PROXY_UNAVAILABLE": {
+      "message": "Не удается использовать прокси-сессию, так как другие расширения управляют настройками прокси или системная политика этому препятствует."
+   },
+   "RATE_US": {
+      "message": "Оцените нас!"
+   },
+   "RECENT": {
+      "message": "Недавние"
+   },
+   "RECENT_LIST_CLEARED": {
+      "message": "Недавний список очищен"
+   },
+   "RECONNECTING": {
+      "message": "Повторное подключение к вашему аккаунту SessionBox."
+   },
+   "RECONNECTING_PLEASE_WAIT": {
+      "message": "Пожалуйста, подождите несколько секунд..."
+   },
+   "RECOVERY_CODE": {
+      "message": "Код восстановления"
+   },
+   "RELOAD": {
+      "message": "Перезапуск"
+   },
+   "REMEMBER_ME": {
+      "description": "User login will be permanent until he logs out if he checks this checkbox",
+      "message": "Не выходить из системы"
+   },
+   "RENAME_GROUP": {
+      "message": "Переименовать группу"
+   },
+   "REPEAT_PASSWORD": {
+      "description": "Repeat password field label",
+      "message": "Повторите пароль"
+   },
+   "REQUIRED_FIELD": {
+      "description": "This field is required error message",
+      "message": "Это обязательное поле"
+   },
+   "SAVE": {
+      "description": "Button text",
+      "message": "Сохранить"
+   },
+   "SAVE_SUCCESS": {
+      "message": "Завершено успешно!"
+   },
+   "SEARCH_RESUlTS": {
+      "message": "Результаты поиска"
+   },
+   "SEND_FEEDBACK": {
+      "description": "Send feedback menu item",
+      "message": "Отправить отзыв"
+   },
+   "SEND_IDEA": {
+      "message": "Отправить идею"
+   },
+   "SESSIONS": {
+      "description": "Sessions",
+      "message": "Сессии"
+   },
+   "SESSION_NOT_AVAILABLE": {
+      "message": "Сессия удалена или недоступна на этом устройстве."
+   },
+   "SESSION_SETTINGS": {
+      "description": "Dialog title",
+      "message": "Настройки сессии"
+   },
+   "SESSION_TYPE": {
+      "message": "Синхронизация между устройствами"
+   },
+   "SETTINGS": {
+      "description": "Settings menu item",
+      "message": "Настройки"
+   },
+   "SETTINGS_HELP": {
+      "description": "Help",
+      "message": "Помощь"
+   },
+   "SETTINGS_INCUBATE": {
+      "description": " Incubate sessions",
+      "message": "Инкубация сессий"
+   },
+   "SETTINGS_INCUBATE_TOOLTIP": {
+      "description": "Keep sessions alive when you don't use them",
+      "message": "Поддерживать активность сессий, когда вы ими не пользуетесь"
+   },
+   "SETTINGS_INHERIT": {
+      "description": " Inherit from parent tab",
+      "message": "Наследование от родительской вкладки"
+   },
+   "SETTINGS_INHERIT_TOOLTIP": {
+      "description": "When you open a tab, it will inherit the parent tab's session",
+      "message": "При открытии вкладки, она унаследует сессию родительской вкладки"
+   },
+   "SETTINGS_LANGUAGE": {
+      "description": "Language",
+      "message": "Язык"
+   },
+   "SETTINGS_LANGUAGE_AUTOMATIC": {
+      "description": "Automatic",
+      "message": "Автоматически"
+   },
+   "SETTINGS_PAGE_RENAME": {
+      "message": "Изменить название вкладки"
+   },
+   "SETTINGS_PAGE_RENAME_TOOLTIP": {
+      "message": "Изменить название вкладки на название сессии"
+   },
+   "SETTINGS_WELCOME_SCREEN": {
+      "description": "New session welcome screen",
+      "message": "Экран приветствия новой сессии"
+   },
+   "SETTINGS_WELCOME_SCREEN_TOOLTIP": {
+      "description": "Show information screen after session is created",
+      "message": "Показать экран информации после создания сеанса"
+   },
+   "SET_PROXY": {
+      "message": "Использовать прокси для этой сессии"
+   },
+   "SHORTCUTS": {
+      "message": "Горячие клавиши"
+   },
+   "SIGN_IN_AS_GUEST": {
+      "message": "или войти как гость"
+   },
+   "SIGN_OUT": {
+      "description": "Sign out menu item",
+      "message": "Выход"
+   },
+   "SUBSCRIPTION_AND_BILLING": {
+      "message": "Подписка и выставление счетов"
+   },
+   "SUPPORT_SESSIONBOX": {
+      "message": "Поддержите SessionBox и получите доступ к новым возможностям"
+   },
+   "SYNCED_SESSION": {
+      "message": "Включено"
+   },
+   "SYNCED_SESSION_SECONDARY": {
+      "message": "Будет проведена безопасная синхронизация этой сессии между вашими устройствами"
+   },
+   "TEMPORARY_SESSIONS_INFO": {
+      "message": "Вы можете создавать временные сеансы для однократного использования. Нажмите, чтобы узнать, как."
+   },
+   "TURN_OFF_SYNC_BY_DEFAULT": {
+      "message": "Отключить синхронизацию по умолчанию"
+   },
+   "TURN_OFF_SYNC_BY_DEFAULT_TOOLTIP": {
+      "message": "Синхронизация между вашими устройствами будет отключена по умолчанию при создании новой сессии"
+   },
+   "UNKNOWN_ERROR": {
+      "message": "Неизвестная ошибка"
+   },
+   "UPDATE_PROXY": {
+      "message": "Обновить настройки прокси"
+   },
+   "UPGRADE": {
+      "message": "Улучшить"
+   },
+   "UPGRADE_CTA": {
+      "message": "Узнать больше"
+   },
+   "VIEW_BY_GROUP": {
+      "message": "По группам"
+   },
+   "VIEW_BY_SESSION": {
+      "description": "Show by Session",
+      "message": "По сессиям"
+   },
+   "VIEW_BY_SITE": {
+      "description": "Show by Site",
+      "message": "По сайтам"
+   },
+   "WEBSITES": {
+      "message": "Веб-сайты"
+   },
+   "WEBSITE_ADDED": {
+      "message": "Веб-сайт добавлен"
+   },
+   "WEBSITE_URL": {
+      "message": "URL веб-сайта"
+   },
+   "WHATS_NEW": {
+      "message": "Что нового"
+   },
+   "WORK_AREA": {
+      "description": "The business field where the user work",
+      "message": "Область деятельности"
+   },
+   "WORK_AREA_CATEGORY_IT": {
+      "message": "IT и разработка ПО"
+   },
+   "WORK_AREA_CATEGORY_OTHER": {
+      "message": "Другое"
+   },
+   "WRONG_LOGIN_USER": {
+      "message": "Эта сессия привязана к @email@. Пожалуйста, войдите в аккаунт SessionBox, чтобы запустить эту сессию."
+   },
+   "WRONG_OLD_PASSWORD": {
+      "message": "Неверный старый пароль"
+   },
+   "YOUR_NEW_SESSION_IS": {
+      "description": "'Your new session is' and an input field will follow this phrase with the name of the user's new session",
+      "message": "Ваша новая сессия:"
+   },
+   "it_qa": {
+      "message": "Контроль качества"
+   },
+   "it_services": {
+      "message": "IT-услуги"
+   },
+   "it_software_development": {
+      "message": "Разработка ПО"
+   },
+   "other_agriculture": {
+      "message": "Сельское хозяйство"
+   },
+   "other_architecture": {
+      "message": "Архитектура"
+   },
+   "other_business_management": {
+      "message": "Управление бизнесом"
+   },
+   "other_education_training": {
+      "message": "Образование и обучение"
+   },
+   "other_finance": {
+      "message": "Финансы"
+   },
+   "other_government": {
+      "message": "Правительство и Государственное управление"
+   },
+   "other_health": {
+      "message": "Здоровье"
+   },
+   "other_hospitality": {
+      "message": "Отели и туризм"
+   },
+   "other_human_services": {
+      "message": "Сфера услуг"
+   },
+   "other_law_security": {
+      "message": "Закон, общественная и личная безопасность"
+   },
+   "other_manufacturing": {
+      "message": "Производство"
+   },
+   "other_marketing_sales": {
+      "message": "Маркетинг, сбыт и сервисное обслуживание"
+   },
+   "other_other": {
+      "message": "Другое"
+   },
+   "other_science": {
+      "message": "Наука, Технологии, Инженерия, Математика"
+   },
+   "other_transportation": {
+      "message": "Транспорт и Логистика"
+   }
+}

@@ -1,0 +1,7 @@
+2020/11/12-21:29:04.751 36d2 Reusing MANIFEST /home/daniel/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/11/12-21:29:04.751 36d2 Recovering log #3
+2020/11/12-21:29:04.812 36d2 Reusing old log /home/daniel/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2020/11/12-23:02:21.686 67af Level-0 table #5: started
+2020/11/12-23:02:21.745 67af Level-0 table #5: 13070 bytes OK
+2020/11/12-23:02:21.838 67af Delete type=0 #3
+2020/11/12-23:02:21.944 67af Manual compaction at level-0 from (begin) .. (end); will stop at (end)

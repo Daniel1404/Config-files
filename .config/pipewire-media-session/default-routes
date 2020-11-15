@@ -1,0 +1,3 @@
+alsa_card.pci-0000:00:1b.0:input:analog-input-rear-mic mute:0 volumes:2,0.029010,0.029010
+alsa_card.pci-0000:00:1b.0:output:analog-output-lineout mute:1 volumes:2,0.000001,0.000001
+alsa_card.usb-ARKMICRO_USB2.0_PC_CAMERA-02:input:analog-input-mic mute:0 volumes:1,0.025150

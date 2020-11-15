@@ -1,0 +1,46 @@
+{
+   "app": {
+      "display_mode": "browser",
+      "icon_color": "#2E9797",
+      "launch": {
+         "web_url": "https://photos.google.com/?lfhs=2"
+      },
+      "linked_icons": [ {
+         "size": 512,
+         "url": "https://ssl.gstatic.com/social/photosui/images/logo/1x/photos_512dp.png"
+      }, {
+         "size": 192,
+         "url": "https://ssl.gstatic.com/social/photosui/images/logo/2x/photos_96dp.png"
+      }, {
+         "size": 128,
+         "url": "https://ssl.gstatic.com/social/photosui/images/logo/2x/photos_64dp.png"
+      }, {
+         "size": 96,
+         "url": "https://ssl.gstatic.com/social/photosui/images/logo/1x/photos_96dp.png"
+      }, {
+         "size": 64,
+         "url": "https://ssl.gstatic.com/social/photosui/images/logo/1x/photos_64dp.png"
+      } ],
+      "theme_color": "rgba(255,255,255,1)"
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "lLESr/IPyMuFaOskMvgeMGb/mbZX+/mPkmPGckyB1Es=",
+   "name": "Google Photos",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://photos.google.com/*" ],
+         "title": "Google Photos"
+      }
+   },
+   "version": "2020.11.12.58280"
+}
