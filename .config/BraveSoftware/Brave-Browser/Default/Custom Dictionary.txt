@@ -1,2 +1,0 @@
-Analisis
-checksum_v1 = cb8631f22c95957206079aaa0815f567

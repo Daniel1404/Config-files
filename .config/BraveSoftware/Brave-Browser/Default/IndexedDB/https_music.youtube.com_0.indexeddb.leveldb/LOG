@@ -1,5 +1,0 @@
-2020/11/13-10:14:21.140 1587b Reusing MANIFEST /home/daniel/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_music.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/13-10:14:23.301 1587b Level-0 table #5: started
-2020/11/13-10:14:23.327 1587b Level-0 table #5: 407 bytes OK
-2020/11/13-10:14:23.372 1587b Delete type=0 #3
-2020/11/13-10:14:23.377 1587b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

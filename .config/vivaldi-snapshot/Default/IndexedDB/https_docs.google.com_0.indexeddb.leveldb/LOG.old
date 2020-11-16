@@ -1,5 +1,0 @@
-2020/11/13-10:37:47.336 168c1 Reusing MANIFEST /home/daniel/.config/vivaldi-snapshot/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/11/13-10:38:06.172 1698b Level-0 table #5: started
-2020/11/13-10:38:06.308 1698b Level-0 table #5: 7290 bytes OK
-2020/11/13-10:38:06.524 1698b Delete type=0 #3
-2020/11/13-10:38:06.524 1698b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
