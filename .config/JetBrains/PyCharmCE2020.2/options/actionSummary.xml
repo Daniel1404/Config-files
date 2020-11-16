@@ -76,6 +76,12 @@
       <entry key="NewDirectoryProject">
         <ActionSummary times="1" last="1605383815629" />
       </entry>
+      <entry key="OpenFile">
+        <ActionSummary times="1" last="1605411954878" />
+      </entry>
+      <entry key="PasteMultiple">
+        <ActionSummary times="1" last="1605412692196" />
+      </entry>
       <entry key="Run">
         <ActionSummary times="1" last="1605373042919" />
       </entry>
@@ -106,6 +112,9 @@
       <entry key="com.intellij.notification.NotificationAction$Simple">
         <ActionSummary times="1" last="1605384246427" />
       </entry>
+      <entry key="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+        <ActionSummary times="198" last="1605412807135" />
+      </entry>
       <entry key="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
         <ActionSummary times="1" last="1605372354500" />
       </entry>
@@ -113,7 +122,7 @@
         <ActionSummary times="1" last="1605380878450" />
       </entry>
       <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
-        <ActionSummary times="14" last="1605392414947" />
+        <ActionSummary times="16" last="1605412414666" />
       </entry>
       <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$ShowOptionsAction">
         <ActionSummary times="4" last="1605383803818" />
@@ -123,6 +132,9 @@
       </entry>
       <entry key="com.jetbrains.edu.learning.newproject.BrowseCoursesAction">
         <ActionSummary times="1" last="1605370677448" />
+      </entry>
+      <entry key="com.maddyhome.idea.vim.ui.ExShortcutKeyAction">
+        <ActionSummary times="8" last="1605412421994" />
       </entry>
     </data>
   </component>

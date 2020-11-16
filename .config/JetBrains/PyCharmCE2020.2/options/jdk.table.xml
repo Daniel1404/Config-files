@@ -3,7 +3,6 @@
     <jdk version="2">
       <name value="Python 3.8 (HyperNews Portal)" />
       <type value="Python SDK" />
-      <version value="Python 3.8.6" />
       <homePath value="$USER_HOME$/PycharmProjects/HyperNews Portal/.idea/VirtualEnvironment/bin/python" />
       <roots>
         <classPath>

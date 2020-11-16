@@ -55,6 +55,9 @@ for conf in $theme_conf_path/*.fish
 end
 emit perf:timer:finish "Oh My Fish initialisation"
 
+# PATH
+set PATH ~/.emacs.d/bin $PATH
+
 # aliases:
 
 # git
@@ -63,7 +66,14 @@ alias gst="git status"
 alias gc="git clone"
 alias gcm="git commit -m"
 alias gph="git push" 
-alias config="/usr/bin/git --git-dir=$HOME/.config-files/ --work-tree=$HOME"
+alias config="/usr/bin/git --git-dir=$HOME/.config-files/ --work-tree=$HOME" # Turns my home in a git repo
+
+
+# cd commands
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias 3..="cd ../../.."
 
 # Development
 
@@ -74,10 +84,18 @@ alias cdMG="cd /home/daniel/MEGA/my-git/github"
 
 # installing packages
 
-alias install="sudo pacman -S"
-alias search="pacman -Ss"
-alias sync="pacman -Syy"
-alias update="pacman -Syu"
+alias install="sudo pacman -S" # install any pagckage
+alias search="pacman -Ss" # Search for a package
+alias sync="pacman -Syy" # sync the repos
+alias update="sudo pacman -Syu" # Update the system, but not AUR
+alias onlyAUR="yay -Sua --noconfirm" # Update onlyAUR
+
+# Other aliases 
+# Emacs
+
+alias em="/usr/bin/emacs -nw" # for terminal
+alias emacs="emacsclient -c -a 'emacs'" # For an instance
+
 
 
 

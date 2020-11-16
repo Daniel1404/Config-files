@@ -16,13 +16,25 @@
         </entry>
         <entry key="$USER_HOME$/github/game-of-life">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1kIMvWuxKFhxZDaUd7FQh2dRfJa">
+            <RecentProjectMetaInfo projectWorkspaceId="1kIMvWuxKFhxZDaUd7FQh2dRfJa">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PC-202.7319.64" />
-              <option name="buildTimestamp" value="1602369206062" />
+              <option name="buildTimestamp" value="1602369192145" />
               <frame x="-2" y="20" width="1370" height="750" extendedState="6" />
               <option name="productionCode" value="PC" />
-              <option name="projectOpenTimestamp" value="1605397393800" />
+              <option name="projectOpenTimestamp" value="1605411754384" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MEGA/PythonProjects/test_Django">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1kJHvnkxa7D2g7tg99l0mkjSt0w">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PC-202.7319.64" />
+              <option name="buildTimestamp" value="1602369192145" />
+              <frame x="-2" y="20" width="1370" height="750" extendedState="6" />
+              <option name="productionCode" value="PC" />
+              <option name="projectOpenTimestamp" value="1605412007000" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -31,6 +43,7 @@
     <option name="lastProjectLocation" value="$USER_HOME$/github" />
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/MEGA/PythonProjects/test_Django" />
         <option value="$USER_HOME$/github/game-of-life" />
         <option value="$USER_HOME$/PycharmProjects/HyperNews Portal" />
       </list>

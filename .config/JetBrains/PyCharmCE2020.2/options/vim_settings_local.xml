@@ -1,4 +1,36 @@
 <application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry>vs urls.py</entry>
+        <entry>q</entry>
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/MEGA/PythonProjects/test_Django/smithee/smithee/urls.py" timestamp="1605412422018" />
+      <file name="$USER_HOME$/MEGA/PythonProjects/test_Django/smithee/smithee/settings.py" timestamp="1605412807137">
+        <mark key="'" line="125" column="0" />
+        <mark key="[" line="20" column="0" />
+        <mark key="]" line="71" column="0" />
+        <mark key="^" line="71" column="0" />
+        <mark key="." line="71" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="89" column="5" filename="$USER_HOME$/MEGA/PythonProjects/test_Django/smithee/smithee/settings.py" />
+      <jump line="120" column="0" filename="$USER_HOME$/MEGA/PythonProjects/test_Django/smithee/smithee/settings.py" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name=":" type="4">
+        <text>q</text>
+      </register>
+    </registers>
+  </component>
   <component name="VimSearchSettings">
     <search>
       <last-dir>0</last-dir>

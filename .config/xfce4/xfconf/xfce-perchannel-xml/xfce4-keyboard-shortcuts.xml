@@ -29,7 +29,6 @@
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;p" type="string" value="xfce4-display-settings --minimal"/>
@@ -49,10 +48,9 @@
       <property name="&lt;Super&gt;space" type="string" value="ulauncher"/>
       <property name="&lt;Super&gt;e" type="string" value="emacs"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;v" type="string" value="/usr/bin/vivaldi-snapshot"/>
-      <property name="&lt;Alt&gt;&lt;Super&gt;s" type="string" value="/usr/lib/brave-beta/brave --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf
-"/>
-      <property name="&lt;Alt&gt;&lt;Super&gt;m" type="string" value="/usr/lib/brave-beta/brave --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod
-"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;s" type="string" value="/usr/lib/brave-beta/brave --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf "/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;m" type="string" value="/usr/lib/brave-beta/brave --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod "/>
+      <property name="&lt;Primary&gt;&lt;Super&gt;l" type="string" value="xflock4"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
