@@ -1,4 +1,4 @@
-#! /bin/fish 
-
+#! /bin/bash 
+picom &
 nitrogen --restore &
 megasync &

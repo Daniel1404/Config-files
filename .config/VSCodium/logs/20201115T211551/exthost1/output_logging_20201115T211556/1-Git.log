@@ -1,0 +1,4 @@
+Looking for git in: git
+Using git 2.29.2 from git
+Open repository: /home/daniel/MEGA/my-git/github/game-of-life
+Warning: Failed to watch ref '/home/daniel/MEGA/my-git/github/game-of-life/.git/refs/remotes/origin/main', is most likely packed.

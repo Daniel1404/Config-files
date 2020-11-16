@@ -41,7 +41,7 @@ import subprocess
 
 from typing import List  # noqa: F401
 
-from libqtile import qtile
+# from libqtile import qtile
 from libqtile import hook
 from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Screen
@@ -49,6 +49,7 @@ from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
 mod = "mod4"
+alt = "mod1"
 terminal = guess_terminal()
 
 keys = [
@@ -70,7 +71,11 @@ keys = [
         desc="Move screen to the next workspace"),
     Key([mod], "h", lazy.screen.prev_group(),
         desc="Move screen to the previous workspace"),
-
+    # Move Windows to next and previous workspace
+    # Key([mod, "shift"], "l", lazy.window.next_group(),
+    #     desc="Move window to the next workspace"),
+    # Key([mod, "shift"], "h", lazy.window.prev_group(),
+    #     desc="Move windows to the previous workspace"),
 
     # Switch window focus to other pane(s) of stack
     Key([mod], "space", lazy.layout.next(),
@@ -94,8 +99,19 @@ keys = [
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown qtile"),
-    Key([mod, "mod1"], "space", lazy.spawn("dmenu_run -p 'Run: '"),
+    Key([mod, alt], "space", lazy.spawn("dmenu_run -p 'Run: '"),
         desc="Run Dmenu"),
+
+    # Applications hotkeys
+
+    Key([mod, alt], "d", lazy.spawn("emacs"), desc="Open emacs"),
+    Key([mod, alt], "b", lazy.spawn("brave"), desc="Open Brave"),
+    Key([mod, alt], "c", lazy.spawn("codium"), desc="Open VS codium"),
+    Key([mod, alt], "p", lazy.spawn("charm"), desc="Open Pycharm CE"),
+    Key([mod, alt], "a", lazy.spawn("pulseaudio"), desc="Open Pulse audio controller"),
+    Key([mod, alt], "y", lazy.spawn("emacs ~/.config/qtile/config.py"),
+        desc="Open emacs on Qtile config file"),
+
 
     # Media hotkeys
     Key([mod], 'Up', lazy.spawn('pulseaudio-ctl up 5')),
@@ -106,27 +122,11 @@ keys = [
     Key([], "Print", lazy.spawn('xfce4-screenshooter')),
 ]
 
-# groups = [Group(i) for i in "asdfuiop"]
-
-# for i in groups:
-#     keys.extend([
-#         # mod1 + letter of group = switch to group
-#         Key([mod], i.name, lazy.group[i.name].toscreen(),
-#             desc="Switch to group {}".format(i.name)),
-
-#         # mod1 + shift + letter of group = switch to & move focused window to group
-#         Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True),
-#             desc="Switch to & move focused window to group {}".format(i.name)),
-#         # Or, use below if you prefer not to switch to that group.
-#         # # mod1 + shift + letter of group = move focused window to group
-#         # Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
-#         #     desc="move focused window to group {}".format(i.name)),
-#     ])
 
 
 # Fixed default workspaces
 group_names = 'WWW DEV TER VID MUS CHAT ETC'.split()
-groups = [Group(name, layout='max') for name in group_names]
+groups = [Group(name, layout='monadtall') for name in group_names]
 
 for name in group_names:
 
@@ -137,18 +137,25 @@ for name in group_names:
         Key([mod, 'shift'], indx, lazy.window.togroup(name))]
 
 
+default_layouts_theme={
+     "border_width": 2,
+     "margin": 4,
+     "border_focus": "#668bd7",
+     "border_normal": "1D2330"}
+
 layouts = [
     layout.Max(),
     layout.Stack(num_stacks=2),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
     # layout.Columns(),
-    # layout.Matrix(),
-    # layout.MonadTall(),
-    # layout.MonadWide(),
+    layout.Matrix(),
+    layout.MonadTall(**default_layouts_theme),
+    layout.MonadWide(**default_layouts_theme),
     # layout.RatioTile(),
     # layout.Tile(),
-    # layout.TreeTab(),
+    layout.TreeTab(),
+    layout.floating.Floating(**default_layouts_theme)
     # layout.VerticalTile(),
     # layout.Zoomy(),
 ]
@@ -226,6 +233,10 @@ def init_widgets_list():
                        background = colors[0],
                        padding = 0
                        ),
+              widget.Systray(
+                       background = colors[0],
+                       padding = 5
+                       ),
               widget.TextBox(
                        text = '',
                        background = colors[0],
@@ -273,20 +284,6 @@ def init_widgets_list():
                        mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(terminal + ' -e htop')},
                        padding = 5
                        ),
-              # widget.TextBox(
-              #          text='',
-              #          background = colors[5],
-              #          foreground = colors[4],
-              #          padding = 0,
-              #          fontsize = 37
-              #          ),
-              # widget.Net(
-              #          interface = "enp6s0",
-              #          format = '{down} ↓↑ {up}',
-              #          foreground = colors[2],
-              #          background = colors[4],
-              #          padding = 5
-              #          ),
               widget.TextBox(
                        text = '',
                        background = colors[5],
@@ -342,10 +339,6 @@ def init_widgets_list():
                        foreground = colors[0],
                        background = colors[4]
                        ),
-              widget.Systray(
-                       background = colors[0],
-                       padding = 5
-                       ),
               ]
     return widgets_list
 
@@ -367,7 +360,7 @@ def init_screen():
 
 if __name__ in ["config", "__main__"]:
     screens = init_screen()
-    widgets_list = init_widgets_list()
+    main_widgets_list = init_widgets_list()
     widgets_screen1 = init_widgets_screen()
 
 
@@ -411,7 +404,6 @@ focus_on_window_activation = "smart"
 def start_once():
     home = os.path.expanduser('~')
     subprocess.call([home + '/.config/qtile/autostart.sh'])
-
 
 # XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
 # string besides java UI toolkits; you can see several discussions on the
