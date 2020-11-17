@@ -1,3 +1,18 @@
+
+###############################################
+### init.fish CONFIGURATION FILE OF DANIEL DIAZ ###
+#
+#  ____   ____
+# |  _ \ |  _ \   Copyright (c) 2020 Daniel Diaz
+# | | | || | | |
+# | |_| || |_| |  http://www.github.com/Daniel1404/
+# |____/ |____/
+#
+
+set fish_greeting #Supress annoying message
+set TERM "termite"
+set EDITOR "emacs"
+
 # Set OMF_CONFIG if not set.
 if not set -q OMF_CONFIG
   set -q XDG_CONFIG_HOME; or set -l XDG_CONFIG_HOME "$HOME/.config"

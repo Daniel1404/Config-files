@@ -34,7 +34,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-
 import os
 import subprocess
 
@@ -51,7 +50,10 @@ from libqtile.utils import guess_terminal
 mod = "mod4"
 alt = "mod1"
 terminal = guess_terminal()
+termite = "termite"   # Open termite instead of default terminal
+st = "st" # Open st instead of default terminal
 
+#################### CUSTOM KEYS  ##########################
 keys = [
     # Switch between windows in current stack pane
     Key([mod], "k", lazy.layout.down(),
@@ -64,6 +66,8 @@ keys = [
         desc="Move window down in current stack "),
     Key([mod, "control"], "j", lazy.layout.shuffle_up(),
         desc="Move window up in current stack "),
+    Key([mod, "control"], "h", lazy.layout.swap_left()),
+    Key([mod, "control"], "l", lazy.layout.swap_right()),
 
     # Move screen to next and previous workspace
     # Added!
@@ -91,7 +95,7 @@ keys = [
     # multiple stack panes
     Key([mod, "shift"], "Return", lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack"),
-    Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
+    Key([mod], "Return", lazy.spawn(termite), desc="Launch terminal"),
 
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
@@ -104,14 +108,25 @@ keys = [
 
     # Applications hotkeys
 
-    Key([mod, alt], "d", lazy.spawn("emacs"), desc="Open emacs"),
+    Key([mod, alt], "d", lazy.spawn("emacs"), desc="Open Emacs"),
+    Key([mod, alt], "v", lazy.spawn("gvim"), desc="Open Gvim"),
     Key([mod, alt], "b", lazy.spawn("brave"), desc="Open Brave"),
     Key([mod, alt], "c", lazy.spawn("codium"), desc="Open VS codium"),
-    Key([mod, alt], "p", lazy.spawn("charm"), desc="Open Pycharm CE"),
-    Key([mod, alt], "a", lazy.spawn("pulseaudio"), desc="Open Pulse audio controller"),
-    Key([mod, alt], "y", lazy.spawn("emacs ~/.config/qtile/config.py"),
+    Key([mod, alt], "p", lazy.spawn("pycharm"), desc="Open Pycharm CE"),
+    Key([mod, alt], "a", lazy.spawn("pavucontrol"), desc="Open Pulse audio GUI controller"),
+    Key([mod, alt], "e", lazy.spawn("emacs ~/.config/qtile/config.py"),
         desc="Open emacs on Qtile config file"),
 
+
+    # PWA hotkeys
+
+    Key([mod, alt], "s",
+        lazy.spawn("/usr/lib/brave-beta/brave --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf"),
+        desc="Open Spotify PWA"), # In others system the PWA id will be different
+
+    Key([mod, alt], "y",
+        lazy.spawn("/usr/lib/brave-beta/brave --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod"),
+        desc="Open Youtube Music PWA"),
 
     # Media hotkeys
     Key([mod], 'Up', lazy.spawn('pulseaudio-ctl up 5')),
@@ -119,14 +134,41 @@ keys = [
     Key([mod], 'm', lazy.spawn('pulseaudio-ctl set 1')),
 
     # Screenshots
-    Key([], "Print", lazy.spawn('xfce4-screenshooter')),
+    Key([], "Print", lazy.spawn('flameshot gui')),
+    Key([alt], "Print", lazy.spawn('flameshot full -c')),
 ]
+# def window_to_prev_group(qtile):
+#     if qtile.currentWindow is not None:
+#         i = qtile.groups.index(qtile.currentGroup)
+#         qtile.currentWindow.togroup(qtile.groups[i - 1].name)
+
+# def window_to_next_group(qtile):
+#     if qtile.currentWindow is not None:
+#         i = qtile.groups.index(qtile.currentGroup)
+#         qtile.currentWindow.togroup(qtile.groups[i + 1].name)
 
 
+# keys += [
 
+#     Key([mod], "l", window_to_next_group(lazy),
+#         desc="Move window to the next workspace"),
+#     Key([mod], "h", window_to_prev_group(lazy),
+#         desc="Move window to the previous workspace"),
+# ]
 # Fixed default workspaces
 group_names = 'WWW DEV TER VID MUS CHAT ETC'.split()
-groups = [Group(name, layout='monadtall') for name in group_names]
+
+group_na_lay = [(group_names[0], {'layout': 'max'}),
+               (group_names[1], {'layout': 'monadtall'}),
+               (group_names[2], {'layout': 'monadtall'}),
+               (group_names[3], {'layout': 'monadtall'}),
+               (group_names[4], {'layout': 'monadtall'}),
+               (group_names[5], {'layout': 'monadtall'}),
+               (group_names[6], {'layout': 'floating'})]
+
+groups = []
+
+groups = [Group(name, **kwargs) for name, kwargs in group_na_lay]
 
 for name in group_names:
 
@@ -139,23 +181,23 @@ for name in group_names:
 
 default_layouts_theme={
      "border_width": 2,
-     "margin": 4,
+     "margin": 6,
      "border_focus": "#668bd7",
      "border_normal": "1D2330"}
 
 layouts = [
-    layout.Max(),
+    layout.Max(**default_layouts_theme),
+    layout.MonadTall(**default_layouts_theme),
     layout.Stack(num_stacks=2),
+    layout.floating.Floating(**default_layouts_theme),
+    layout.TreeTab(**default_layouts_theme),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
     # layout.Columns(),
-    layout.Matrix(),
-    layout.MonadTall(**default_layouts_theme),
-    layout.MonadWide(**default_layouts_theme),
+    # layout.Matrix(),
+    # layout.MonadWide(**default_layouts_theme),
     # layout.RatioTile(),
     # layout.Tile(),
-    layout.TreeTab(),
-    layout.floating.Floating(**default_layouts_theme)
     # layout.VerticalTile(),
     # layout.Zoomy(),
 ]
@@ -254,13 +296,13 @@ def init_widgets_list():
               widget.Pacman(
                        update_interval = 1800,
                        foreground = colors[2],
-                       mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(terminal + ' -e sudo pacman -Syu')},
+                       mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(termite + ' -e sudo pacman -Syu')},
                        background = colors[4]
                        ),
               widget.TextBox(
                        text = "Updates",
                        padding = 5,
-                       mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(terminal + ' -e sudo pacman -Syu')},
+                       mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(termite + ' -e sudo pacman -Syu')},
                        foreground = colors[2],
                        background = colors[4]
                        ),
@@ -281,7 +323,7 @@ def init_widgets_list():
               widget.Memory(
                        foreground = colors[2],
                        background = colors[5],
-                       mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(terminal + ' -e htop')},
+                       mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(termite + ' -e htop')},
                        padding = 5
                        ),
               widget.TextBox(
@@ -374,7 +416,7 @@ mouse = [
 ]
 
 dgroups_key_binder = None
-dgroups_app_rules = []  # type: List
+dgrups_app_rules = []
 main = None  # WARNING: this is deprecated and will be removed soon
 follow_mouse_focus = True
 bring_front_click = False
@@ -411,6 +453,6 @@ def start_once():
 # this string if your java app doesn't work correctly. We may as well just lie
 # and say that we're a working one by default.
 #
-# We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
+#We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in,
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
