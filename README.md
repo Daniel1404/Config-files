@@ -1,7 +1,12 @@
 # Config files
 
 These are my config files of my Linux distro (Manjaro).
-This repo will include:
+This repo includes:
 
 * my shell configs: fish, zsh, bash
-* Window manager settings: Qtile (soon)
+* Code editor settings:
+  * Vscodium: Free and open source Vscode
+  * Pycharm
+* Window manager settings: 
+  * Qtile at the moment:
+    config-files/.config/qtile
