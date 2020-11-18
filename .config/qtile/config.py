@@ -110,11 +110,12 @@ keys = [
 
     Key([mod, alt], "d", lazy.spawn("emacs"), desc="Open Emacs"),
     Key([mod, alt], "v", lazy.spawn("gvim"), desc="Open Gvim"),
+    Key([mod, alt], "n", lazy.spawn(termite + " -e nvim"), desc="Open Gvim"),
     Key([mod, alt], "b", lazy.spawn("brave"), desc="Open Brave"),
     Key([mod, alt], "c", lazy.spawn("codium"), desc="Open VS codium"),
     Key([mod, alt], "p", lazy.spawn("pycharm"), desc="Open Pycharm CE"),
     Key([mod, alt], "a", lazy.spawn("pavucontrol"), desc="Open Pulse audio GUI controller"),
-    Key([mod, alt], "e", lazy.spawn("emacs ~/.config/qtile/config.py"),
+    Key([mod, alt], "e", lazy.spawn(termite + " -e nvim ~/.config/qtile/config.py"),
         desc="Open emacs on Qtile config file"),
 
 
@@ -158,17 +159,12 @@ keys = [
 # Fixed default workspaces
 group_names = 'WWW DEV TER VID MUS CHAT ETC'.split()
 
-group_na_lay = [(group_names[0], {'layout': 'max'}),
-               (group_names[1], {'layout': 'monadtall'}),
-               (group_names[2], {'layout': 'monadtall'}),
-               (group_names[3], {'layout': 'monadtall'}),
-               (group_names[4], {'layout': 'monadtall'}),
-               (group_names[5], {'layout': 'monadtall'}),
-               (group_names[6], {'layout': 'floating'})]
 
-groups = []
+groups = [Group(name, layout="max") if name == "WWW" else Group(name, layout="floating")
+          if name == "ETC" else Group(name, layout="monadtall") for name in group_names]
 
-groups = [Group(name, **kwargs) for name, kwargs in group_na_lay]
+# groups = [Group(name, **kwargs) for name, kwargs in group_na_lay]
+
 
 for name in group_names:
 
