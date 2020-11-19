@@ -107,16 +107,17 @@ keys = [
         desc="Run Dmenu"),
 
     # Applications hotkeys
-
-    Key([mod, alt], "d", lazy.spawn("emacs"), desc="Open Emacs"),
+    # Apps are opened with Super + left alt keys
+    Key([mod, alt], "d", lazy.spawn("emacs"), desc="Open Doom Emacs"),
     Key([mod, alt], "v", lazy.spawn("gvim"), desc="Open Gvim"),
-    Key([mod, alt], "n", lazy.spawn(termite + " -e nvim"), desc="Open Gvim"),
+    Key([mod, alt], "n", lazy.spawn(termite + " -e nvim"), desc="Open Neovim"),
+    Key([mod, alt], "f", lazy.spawn(termite + " -e vifm"), desc="Open vifm"),
     Key([mod, alt], "b", lazy.spawn("brave"), desc="Open Brave"),
     Key([mod, alt], "c", lazy.spawn("codium"), desc="Open VS codium"),
     Key([mod, alt], "p", lazy.spawn("pycharm"), desc="Open Pycharm CE"),
     Key([mod, alt], "a", lazy.spawn("pavucontrol"), desc="Open Pulse audio GUI controller"),
-    Key([mod, alt], "e", lazy.spawn(termite + " -e nvim ~/.config/qtile/config.py"),
-        desc="Open emacs on Qtile config file"),
+    Key([mod, alt], "e", lazy.spawn("emacs -e nvim ~/.config/qtile/config.py"),
+        desc="Open Qtile config file on emacs"),
 
 
     # PWA hotkeys
@@ -138,41 +139,27 @@ keys = [
     Key([], "Print", lazy.spawn('flameshot gui')),
     Key([alt], "Print", lazy.spawn('flameshot full -c')),
 ]
-# def window_to_prev_group(qtile):
-#     if qtile.currentWindow is not None:
-#         i = qtile.groups.index(qtile.currentGroup)
-#         qtile.currentWindow.togroup(qtile.groups[i - 1].name)
 
-# def window_to_next_group(qtile):
-#     if qtile.currentWindow is not None:
-#         i = qtile.groups.index(qtile.currentGroup)
-#         qtile.currentWindow.togroup(qtile.groups[i + 1].name)
+group_icons = ["B   ", 
+            "D  ",
+            "T  ",
+            "V  ",
+            "M  ",
+            "C  ",
+            "E  "]
 
-
-# keys += [
-
-#     Key([mod], "l", window_to_next_group(lazy),
-#         desc="Move window to the next workspace"),
-#     Key([mod], "h", window_to_prev_group(lazy),
-#         desc="Move window to the previous workspace"),
-# ]
-# Fixed default workspaces
-group_names = 'WWW DEV TER VID MUS CHAT ETC'.split()
+groups = [Group(name, layout="max") if name == group_icons[0] else Group(name, layout="floating")
+          if name ==  group_icons[-1] else Group(name, layout="monadtall") for name in group_icons]
 
 
-groups = [Group(name, layout="max") if name == "WWW" else Group(name, layout="floating")
-          if name == "ETC" else Group(name, layout="monadtall") for name in group_names]
 
-# groups = [Group(name, **kwargs) for name, kwargs in group_na_lay]
+for icon in group_icons:
 
-
-for name in group_names:
-
-    indx = (name[0]).lower()
+    indx = (icon[0]).lower()
 
     keys += [
-        Key([mod, 'control'], indx, lazy.group[name].toscreen()),
-        Key([mod, 'shift'], indx, lazy.window.togroup(name))]
+        Key([mod, 'control'], indx, lazy.group[icon].toscreen()),
+        Key([mod, 'shift'], indx, lazy.window.togroup(icon))]
 
 
 default_layouts_theme={
@@ -235,8 +222,8 @@ def init_widgets_list():
                        ),
               widget.GroupBox(
                        font = "Ubuntu Bold",
-                       fontsize = 9,
-                       margin_y = 3,
+                       fontsize = 12,
+                       margin_y = 2,
                        margin_x = 0,
                        padding_y = 5,
                        padding_x = 3,
