@@ -111,6 +111,6 @@ alias onlyAUR="yay -Sua --noconfirm" # Update onlyAUR
 alias em="/usr/bin/emacs -nw" # for terminal
 alias emacs="emacsclient -c -a 'emacs'" # For an instance
 
-
+alias qtile_log="cd ~/.local/share/qtile; bat qtile.log"
 
 
