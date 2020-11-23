@@ -9,4 +9,4 @@ This repo includes:
   * Pycharm
 * Window manager settings: 
   * Qtile at the moment:
-    config-files/.config/qtile
+    Moved to https://github.com/Daniel1404/Qtile-Config

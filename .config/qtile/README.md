@@ -1,2 +1,0 @@
-# Qtile config file
-
