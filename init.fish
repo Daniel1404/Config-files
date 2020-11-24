@@ -80,6 +80,7 @@ alias g="git"
 alias gst="git status"
 alias gc="git clone"
 alias gcm="git commit -m"
+alias grc="git rm -r --cached"
 alias gph="git push" 
 alias config="/usr/bin/git --git-dir=$HOME/.config-files/ --work-tree=$HOME" # Turns my home in a git repo
 
@@ -111,6 +112,7 @@ alias onlyAUR="yay -Sua --noconfirm" # Update onlyAUR
 alias em="/usr/bin/emacs -nw" # for terminal
 alias emacs="emacsclient -c -a 'emacs'" # For an instance
 
+# Aliases for Qtile
 alias qtile_log="cd ~/.local/share/qtile; bat qtile.log"
-
+alias qtile_server="Xephyr -br -ac -noreset -screen 1000x700 :1 & DISPLAY=:1 qtile"
 
