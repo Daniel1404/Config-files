@@ -81,15 +81,21 @@ alias gst="git status"
 alias gc="git clone"
 alias gcm="git commit -m"
 alias grc="git rm -r --cached"
-alias gph="git push" 
+alias gph="git push origin" 
 alias config="/usr/bin/git --git-dir=$HOME/.config-files/ --work-tree=$HOME" # Turns my home in a git repo
+alias ginit="git init;touch README.md; git add README.md;git commit -m 'first commit';git branch -M main"
 
-
+function gremote -a repo
+        command git remote add origin git@github.com:Daniel1404/$repo.git
+    end
 # cd commands
 
 alias ..="cd .."
 alias ...="cd ../.."
 alias 3..="cd ../../.."
+
+# cp commands
+alias cp="cp -r" # set cp to allways copy directories
 
 # Development
 
