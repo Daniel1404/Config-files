@@ -88,6 +88,15 @@ alias ginit="git init;touch README.md; git add README.md;git commit -m 'first co
 function gremote -a repo
         command git remote add origin git@github.com:Daniel1404/$repo.git
 end
+
+
+function gchanges -a message
+        command git add ./ ; git commit -m $message ; git push origin
+end
+
+
+
+
 # cd commands
 
 alias ..="cd .."
