@@ -91,11 +91,8 @@ end
 
 
 function gchanges -a message
-        command git add ./ ; git commit -m "$message" ; git push origin
+        command git add ./ ; git commit -m $message ; git push origin
 end
-
-
-
 
 # cd commands
 
