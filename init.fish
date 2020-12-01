@@ -127,9 +127,10 @@ alias onlyAUR="yay -Sua --noconfirm" # Update onlyAUR
 alias em="/usr/bin/emacs -nw" # for terminal
 alias emacs="emacsclient -c -a 'emacs'" # For an instance
 
-# Aliases for Qtile
+# Aliases for Windows managers server
 alias qtile_log="cd ~/.local/share/qtile; bat qtile.log"
-alias qtile_server="Xephyr -br -ac -noreset -screen 1000x700 :1 & DISPLAY=:1 qtile"
+alias qtile_server="Xephyr -br -ac -noreset -screen 1300x730 :1 & DISPLAY=:1 qtile"
+alias awesome_server="Xephyr -br -ac -noreset -screen 1300x730 :1 & DISPLAY=:1 awesome ~/.config/awesome/rc.lua"
 
 
 alias ls='exa -a --color=always --group-directories-first' # my preferred listing
