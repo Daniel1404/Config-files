@@ -1,5 +1,11 @@
+###############################################
+### .bashrc CONFIGURATION FILE OF DANIEL DIAZ ###
 #
-# ~/.bashrc
+#  ____   ____
+# |  _ \ |  _ \   Copyright (c) 2020 Daniel Diaz
+# | | | || | | |
+# | |_| || |_| |  http://www.github.com/Daniel1404/
+# |____/ |____/
 #
 
 [[ $- != *i* ]] && return
@@ -75,7 +81,6 @@ if ${use_color} ; then
 		PS1='\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$\[\033[00m\] '
 	fi
 
-	alias ls='ls --color=auto'
 	alias grep='grep --colour=auto'
 	alias egrep='egrep --colour=auto'
 	alias fgrep='fgrep --colour=auto'
@@ -143,4 +148,50 @@ alias la='exa -al --color=always --group-directories-first'  # all files and dir
 alias ll='exa -l --color=always --group-directories-first'  # long format
 # alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
+
+# cd commands
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias 3..="cd ../../.."
+
+
+# Development
+
+alias p="python3"
+alias cl="clear"
+alias cdM="cd ~/MEGA/"
+alias cdMG="cd ~/MEGA/my-git/github"
+alias cdC="cd ~/.config/"
+# installing packages
+
+alias install="sudo pacman -S" # install any pagckage
+alias search="pacman -Ss" # Search for a package
+alias sync="pacman -Syy" # sync the repos
+alias update="sudo pacman -Syu" # Update the system, but not AUR
+alias onlyAUR="yay -Sua --noconfirm" # Update onlyAUR
+
+# Other aliases 
+# Emacs
+
+alias em="/usr/bin/emacs -nw" # for terminal
+alias emacs="emacsclient -c -a 'emacs'" # For an instance
+
+# Aliases for Windows managers server
+alias qtile_log="cd ~/.local/share/qtile; bat qtile.log"
+alias qtile_server="Xephyr -br -ac -noreset -screen 1300x730 :1 & DISPLAY=:1 qtile"
+alias awesome_server="Xephyr -br -ac -noreset -screen 1300x730 :1 & DISPLAY=:1 awesome ~/.config/awesome/rc.lua"
+
+# aliases:
+
+# git
+alias g="git"
+alias gst="git status"
+alias gc="git clone"
+alias gcm="git commit -m"
+alias grc="git rm -r --cached"
+alias gph="git push origin" 
+alias config="/usr/bin/git --git-dir=$HOME/.config-files/ --work-tree=$HOME" # Turns my home in a git repo
+alias ginit="git init;touch README.md; git add README.md;git commit -m 'first commit';git branch -M main"
+
 
