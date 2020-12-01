@@ -194,4 +194,8 @@ alias gph="git push origin"
 alias config="/usr/bin/git --git-dir=$HOME/.config-files/ --work-tree=$HOME" # Turns my home in a git repo
 alias ginit="git init;touch README.md; git add README.md;git commit -m 'first commit';git branch -M main"
 
+gchanges () {
+    git add ./ ; git commit -m "$1" ; git push origin
+}
+
 
