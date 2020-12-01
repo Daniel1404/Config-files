@@ -111,8 +111,8 @@ alias cp="cp -r" # set cp to allways copy directories
 alias p="python3"
 alias cl="clear"
 alias cdM="cd ~/MEGA/"
-alias cdMG="cd /home/daniel/MEGA/my-git/github"
-
+alias cdMG="cd ~/MEGA/my-git/github"
+alias cdC="cd ~/.config/"
 # installing packages
 
 alias install="sudo pacman -S" # install any pagckage
