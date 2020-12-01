@@ -131,3 +131,10 @@ alias emacs="emacsclient -c -a 'emacs'" # For an instance
 alias qtile_log="cd ~/.local/share/qtile; bat qtile.log"
 alias qtile_server="Xephyr -br -ac -noreset -screen 1000x700 :1 & DISPLAY=:1 qtile"
 
+
+alias ls='exa -a --color=always --group-directories-first' # my preferred listing
+alias la='exa -al --color=always --group-directories-first'  # all files and dirs
+alias ll='exa -l --color=always --group-directories-first'  # long format
+# alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias l.='exa -a | egrep "^\."'
+
