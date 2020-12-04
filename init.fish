@@ -12,6 +12,7 @@
 set fish_greeting #Supress annoying message
 set TERM "termite"
 set EDITOR "emacs"
+set fish_vi_key_bindings
 
 # Set OMF_CONFIG if not set.
 if not set -q OMF_CONFIG
