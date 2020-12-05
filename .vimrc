@@ -37,6 +37,8 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tpope/vim-commentary'               " Comment stuff out
 Plugin 'vim-syntastic/syntastic' 	" Sintax highlighting
 Plugin 'nvie/vim-flake8'		" PEP 8 CHECKER END OF PLUGINS
+" Autocomplete
+Plugin 'neoclide/coc.nvim'
 call vundle#end()            " required
 
 
@@ -87,11 +89,11 @@ map <leader>q :q!<CR>
 map <leader>s :sp<CR>
 map <leader>v :vs<CR>
 " For manage tabs
-map <leader>e :tabnew<cr>
-map <leader>e<leader> :tabnext<cr>
+map t :tabnew<cr>
+map T :tabnext<cr>
 " map <leader>tm :tabmove<cr>
-map <leader>ec :tabclose<cr>
-map <leader>eo :tabonly<cr>
+map x :tabclose<cr>
+" map <leader>eo :tabonly<cr>
 " CTRLP File finder
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
