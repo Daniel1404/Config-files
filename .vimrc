@@ -67,7 +67,7 @@ au BufNewFile,BufRead *.py
     \ set tabstop=4
     \ set softtabstop=4
     \ set shiftwidth=4
-    \ set textwidth=79
+    \ set textwidth=100
     \ set expandtab
     \ set autoindent
     \ set fileformat=unix
@@ -80,7 +80,7 @@ au BufNewFile,BufRead *.js, *.html, *.css
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " NERDTREE
-" Set Nerdtree to open if no files specified
+" Uncomment to Set Nerdtree to open if no files specified
 " autocmd StdinReadPre * let s:std_in=1
 " autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <space>n :NERDTreeToggle<CR>
@@ -197,7 +197,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window.
-nnoremap <silent> K :call <SID>show_documentation()<CR>
+nnoremap <silent> M :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
