@@ -28,7 +28,10 @@ Plugin 'flazz/vim-colorschemes'             " Colorschemes
 " Nerdtree
 Plugin 'preservim/nerdtree'
 Plugin 'ryanoasis/vim-devicons'		" Icons for nerdtree
-Plugin 'ctrlpvim/ctrlp.vim'
+" Plugin 'ctrlpvim/ctrlp.vim'
+" FZF
+Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plugin 'junegunn/fzf.vim'
 " Startify
 Plugin 'mhinz/vim-startify'
 " Vim powerline and themes
@@ -47,6 +50,13 @@ Plugin 'nvie/vim-flake8'		" PEP 8 CHECKER
 Plugin 'tell-k/vim-autopep8'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'neoclide/coc.nvim'
+" Snippets
+
+" Track the engine.
+Plugin 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+Plugin 'honza/vim-snippets'
 call vundle#end()            " required
 
 
@@ -62,22 +72,14 @@ set t_Co=256
 nnoremap <SPACE> <Nop>
 let mapleader=" "
 
-" Set these settings for python Develompment
-au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=100
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
-" Set these settings for web dev
-au BufNewFile,BufRead *.js, *.html, *.css
-    \ set tabstop=2
-    \ set softtabstop=2
-    \ set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set textwidth=100
+set expandtab
+set autoindent
+set fileformat=unix
 
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " NERDTREE
 " Uncomment to Set Nerdtree to open if no files specified
@@ -89,6 +91,12 @@ map <space>n :NERDTreeToggle<CR>
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
+" NERDCOMMENTER
+filetype plugin on
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
 
 " MY MAPS
 " MANAGE WINDOWS
@@ -295,12 +303,26 @@ nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
 " " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+" Snippets settings
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 """"""""""""""""""""
 " PYTHON SETTINGS
 """""""""""""""
-let g:autopep8_on_save = 1
+" Uncomment the following line to save python files on save
+" let g:autopep8_on_save = 1
 let python_highlight_all=1
 syntax on
-autocmd FileType python map <buffer> <leader>c :call flake8#Flake8()<CR>
+autocmd FileType python map <buffer> <leader>zc :call flake8#Flake8()<CR>
+
+" AUTOPEP8
+autocmd FileType python noremap <buffer> <leader>za :call Autopep8()<CR>
+
+let g:autopep8_max_line_length=100
+
+" Execute current python file in terminal
+
+map <leader>zx :CocCommand python.execInTerminal<CR>
 
