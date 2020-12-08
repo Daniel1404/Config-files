@@ -71,6 +71,12 @@ set t_Co=256
 " Set leader to space
 nnoremap <SPACE> <Nop>
 let mapleader=" "
+" GUI STUFF
+" Uncomment next for remove Menubar
+
+" set guioptions -=m 
+" Uncomment next for remove Toolbar
+set guioptions -=T
 
 set tabstop=4
 set softtabstop=4
@@ -105,7 +111,7 @@ map <leader>l :wincmd l<CR>
 map <leader>j :wincmd j<CR>
 map <leader>k :wincmd k<CR>
 map <silent> <leader>w :w<CR>
-map <silent> <leader>q :q!<CR>
+map <silent> <leader>q :qa<CR>
 map <leader>s :sp<CR>
 map <silent> <leader>v :vs<CR>
 " FOR RESIZE WINDOWS
