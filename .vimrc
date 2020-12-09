@@ -8,9 +8,6 @@
 " #
 
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -28,7 +25,7 @@ Plugin 'flazz/vim-colorschemes'             " Colorschemes
 " Nerdtree
 Plugin 'preservim/nerdtree'
 Plugin 'ryanoasis/vim-devicons'		" Icons for nerdtree
-" Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 " FZF
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
@@ -63,7 +60,7 @@ call vundle#end()            " required
 " OTHER SETTINGS
 " Set the system clipboard instead of vim clipboard
 set clipboard=unnamedplus
-set paste
+" set paste
 set encoding=utf-8
 " Set fonts
 set termguicolors
@@ -210,8 +207,8 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-" Use K to show documentation in preview window.
-nnoremap <silent> M :call <SID>show_documentation()<CR>
+" Use space k to show documentation in preview window.
+nnoremap <silent> <leader>k :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
@@ -289,7 +286,7 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 " Add (Neo)Vim's native statusline support.
 " NOTE: Please see `:h coc-status` for integrations with external plugins that
 " provide custom statusline: lightline.vim, vim-airline.
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+
 
 " Mappings for CoCList
 " Show all diagnostics.
@@ -310,7 +307,7 @@ nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " Snippets settings
-let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsExpandTrigger="<leader>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
@@ -323,12 +320,20 @@ let python_highlight_all=1
 syntax on
 autocmd FileType python map <buffer> <leader>zc :call flake8#Flake8()<CR>
 
-" AUTOPEP8
-autocmd FileType python noremap <buffer> <leader>za :call Autopep8()<CR>
+" Function that reformat Python files and save it.
+" I created it since I was unable to use the Autopep8 vim plugin
+function! Save_and_format_python()
+  :%! autopep8 - 
+  :w
+endfunction
+
+
+map <leader>r :call Save_and_format_python()<CR>
 
 let g:autopep8_max_line_length=100
 
 " Execute current python file in terminal
 
 map <leader>zx :CocCommand python.execInTerminal<CR>
+
 
