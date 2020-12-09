@@ -73,7 +73,9 @@ let mapleader=" "
 
 " set guioptions -=m 
 " Uncomment next for remove Toolbar
-set guioptions -=T
+if has("gui_running")
+  set guioptions -=T
+endif
 
 set tabstop=4
 set softtabstop=4
