@@ -330,6 +330,7 @@ endfunction
 
 map <leader>r :call Save_and_format_python()<CR>
 
+" Set max line lenght to 100
 let g:autopep8_max_line_length=100
 
 " Execute current python file in terminal
