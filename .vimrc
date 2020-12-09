@@ -20,11 +20,13 @@ Plugin 'VundleVim/Vundle.vim'
 " Colorscheme  Dracula,my prefered
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'flazz/vim-colorschemes'             " Colorschemes
-
+" Rainbow pairs
+Plugin 'luochen1990/rainbow'
 " FILESYSTEM
 " Nerdtree
 Plugin 'preservim/nerdtree'
 Plugin 'ryanoasis/vim-devicons'		" Icons for nerdtree
+Plugin 'daniel1404/image.vim'          " My fork of image.vim. Preview images with nerdtree
 Plugin 'ctrlpvim/ctrlp.vim'
 " FZF
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -85,7 +87,8 @@ set expandtab
 set autoindent
 set fileformat=unix
 
-
+" Rainbow pairs config
+let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
 " NERDTREE
 " Uncomment to Set Nerdtree to open if no files specified
 " autocmd StdinReadPre * let s:std_in=1
@@ -324,8 +327,9 @@ autocmd FileType python map <buffer> <leader>zc :call flake8#Flake8()<CR>
 
 " Function that reformat Python files and save it.
 " I created it since I was unable to use the Autopep8 vim plugin
+" I format my files with autopep8 at agressive level 2
 function! Save_and_format_python()
-  :%! autopep8 - 
+  :%! autopep8 -a -a - 
   :w
 endfunction
 
