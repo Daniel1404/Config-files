@@ -1,0 +1,18 @@
+{
+	"coc.preferences.formatOnSaveFiletypes": [
+		"css",
+		"markdown",
+		"javascript",
+		"graphql",
+		"html",
+		"yaml",
+		"json",
+		"python"
+	],
+	// python config
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": false,
+	"python.jediEnabled": false,
+	"python.linting.banditEnabled": false,
+	"python.linting.flake8Enabled": true
+}
