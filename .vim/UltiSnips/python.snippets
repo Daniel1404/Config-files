@@ -1,0 +1,56 @@
+snippet problemC "A complex problem skeleton" b
+
+"""
+${1: program_name} program
+
+"""
+
+
+class $1:
+
+    """Class of $1. """
+
+    def __init__(self, lenght):
+        self.lenght = lenght
+
+
+
+    def get_$1(self):
+        pass
+
+
+def main():
+    try:
+        n = int(input("Number of $1 > "))
+        while n > 0:
+            $1_lenght = int(input("Lenght of the Triangle > "))
+            my_$1 = $1($1_lenght)
+            print(my_$1.$2())
+
+    except Exception as e:
+        raise e
+
+
+if __name__ == "__main__":
+    main()
+endsnippet
+
+snippet problemS "A simple program skeleton" b
+"""
+${1: Program name} Program
+"""
+
+def main():
+	pass
+
+if __name__ == "__main__":
+
+endsnippet
+
+snippet line "A jump line, since I don't have backslash in my keyboard" !b
+\n
+endsnippet
+
+snippet linestr "A jump line, since I don't have backslash in my keyboard" !b
+"\n"
+endsnippet
