@@ -1,0 +1,50 @@
+" ### VIM CONFIGURATION FILE OF DANIEL DIAZ ###
+"
+"   ____   ____
+"  |  _ \ |  _ \   Copyright (c) 2020 Daniel Diaz
+"  | | | || | | |
+"  | |_| || |_| |  http://www.github.com/Daniel1404/
+"  |____/ |____/
+"
+
+" Uses the system clipboard
+
+set clipboard+=unnamed
+
+" Emulates the behaviour of  vim-commentary plugin
+set commentary
+
+" Join via ide
+set ideajoin
+
+" Sync IDE and vim bookmarks
+set ideamarks
+
+" Maps
+let mapleader = " "
+
+" Moving tabs
+nnoremap J :action PreviousTab<cr>
+nnoremap K :action NextTab<cr>
+
+" Closing tabs
+nmap x :action CloseContent<cr>
+nmap X :action ReopenClosedTab<cr>
+
+" Splits
+nmap <leader>v :action SplitHorizontally<cr>
+nmap <leader>h :action SplitVertically<cr>
+
+" Search for things :)
+nmap <leader>sf :action GotoFile<cr>
+nmap <leader>sc :action GotoClass<cr>
+nmap <leader>ss :action GotoSymbol<cr>
+nmap <leader>si :action GotoImplementation<cr>
+
+" Search in IDE instead of vim
+nmap <leader>se :action Find<cr>
+
+"Terminal
+nmap <leader>t :action ActivateTerminalToolWindow<cr>
+" Replacing
+nmap R :action Replace<cr>

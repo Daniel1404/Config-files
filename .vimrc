@@ -43,25 +43,34 @@ Plugin 'iamcco/markdown-preview.nvim'
 " CSS colors
 Plugin 'ap/vim-css-color'
 
-
 " Git integration
 Plugin 'tpope/vim-fugitive'
+
 " Python Development
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'tpope/vim-commentary'               " Comment stuff out
 Plugin 'vim-syntastic/syntastic' 	" Sintax highlighting
 Plugin 'nvie/vim-flake8'		" PEP 8 CHECKER 
+" Plugin 'thaerkh/vim-indentguides'           " Indentation helper
+" Plugin 'thaerkh/vim-workspace'              " Session managment
+" Django
+Plugin 'tweekmonster/django-plus.vim'
+
+" Virtual-envs
+
+Plugin 'jmcantrell/vim-virtualenv'
 " Autocomplete
 Plugin 'tell-k/vim-autopep8'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'neoclide/coc.nvim'
 " Snippets
 
-" Track the engine.
+" Snippets engine.
 Plugin 'SirVer/ultisnips'
 
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
+
 call vundle#end()            " required
 
 
@@ -95,6 +104,8 @@ if has("gui_running")
   set guioptions -=T
 endif
 
+set guifont=DejaVuSansMono\ Nerd\ Font\ 10
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -126,6 +137,9 @@ colorscheme palenight
 
 " Set statsuline order
 set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
+
+set statusline+=\ %{virtualenv#statusline()}
+
 " Airline theme
 " let g:airline_theme='minimalist'
 let g:airline_theme = "palenight"
@@ -175,6 +189,14 @@ let g:ctrlp_cmd = 'CtrlP'
 
 let g:ctrlp_working_path_mode = 'ra'
 
+" Workspaces managment
+" Don't autosave
+" let g:workspace_autosave = 0
+" let g:workspace_autosave_untrailspaces = 0
+
+" let g:workspace_session_directory = $HOME . '/vim-workspaces'
+
+" nnoremap <leader>zw :ToggleWorkspace<CR>
 """""""""""""""""""
 " PYTHON SETTINGS
 """""""""""""""
@@ -242,7 +264,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Use space k to show documentation in preview window.
-nnoremap <silent> <leader>k :call <SID>show_documentation()<CR>
+nnoremap <silent> <leader>q :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
@@ -358,7 +380,7 @@ autocmd FileType python map <buffer> <leader>zc :call flake8#Flake8()<CR>
 " I created it since I was unable to use the Autopep8 vim plugin
 " I format my files with autopep8 at agressive level 2
 function! Save_and_format_python()
-  :%! autopep8 -a -a - 
+  :%! autopep8 -a -a -
   :w
 endfunction
 
