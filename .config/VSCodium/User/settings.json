@@ -1,0 +1,92 @@
+{
+    "python.showStartPage": false,
+    "workbench.colorTheme": "Dracula",
+    "explorer.confirmDelete": false,
+    "cSpell.userWords": [
+        "APPNAME",
+        "Upvote",
+        "asgi",
+        "createsuperuser",
+        "githubapi",
+        "makemigrations",
+        "mkdir",
+        "qtile",
+        "repos",
+        "runserver",
+        "spotify",
+        "startapp",
+        "toscreen",
+        "venv",
+        "virtualenv",
+        "vscodium",
+        "wsgi"
+    ],
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontLigatures": true,
+    "files.associations": {
+        "*.py": "python",
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "vim.enableNeovim": true,
+    "vim.handleKeys": {
+        "<C-d>": true
+    },
+    "vim.insertModeKeyBindings": [],
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.external.linuxExec": "termite",
+    "terminal.integrated.allowChords": false,
+    "[html]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "django.snippets.exclude": [
+        "cms",
+        "wagtail"
+    ],
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "html.format.indentInnerHtml": true,
+    "[django-html]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+            // "ext": ["js", "json"]
+            // ^^ to set extensions to be beautified using the javascript beautifier
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+        // ^^ providing just an array sets the VS Code file type
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.renderControlCharacters": false,
+}
